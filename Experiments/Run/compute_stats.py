@@ -102,31 +102,18 @@ def calculate_median_times_by_k(running_times_by_k):
 
 '''
 files = [
-    "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results/td-python-acc-rational-efficient-join/td-python-acc-rational-efficient-join_results.txt",
+    
     "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results/td-python-ver-rational-efficient-join/td-python-ver-rational-efficient-join_results.txt",
-    "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results/td-python-acc-real-efficient-join/td-python-acc-real-efficient-join_results.txt",
     "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results/td-python-ver-real-efficient-join/td-python-ver-real-efficient-join_results.txt",
-    "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results/monolithic-clingo-acc/monolithic-clingo-acc_results.txt",
     "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results/monolithic-clingo-ver/monolithic-clingo-ver_results.txt"
 ]
 
 
 '''
 
-'''
-files = [
-"/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_additional_small/td-python-acc-rational-efficient-join/td-python-acc-rational-efficient-join_results.txt",
-"/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_additional_small/td-python-acc-real-efficient-join/td-python-acc-real-efficient-join_results.txt",
-"/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_additional_small/monolithic-clingo-count-acc/monolithic-clingo-count-acc_results.txt"
-]
-'''
 
-'''
-files = [
-    "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_dense_stable/monolithic-clingo-count-acc-stable/monolithic-clingo-count-acc-stable_results.txt",
-    "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_dense_stable/td-python-acc-real-efficient-join-stable/td-python-acc-real-efficient-join-stable_results.txt"
-]
-'''
+
+
 
 '''
 files = [
@@ -135,15 +122,7 @@ files = [
     "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results/monolithic-clingo-ver/monolithic-clingo-ver_results.txt"
 ]
 '''
-'''
-files = [
-"/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_dense_stable/monolithic-clingo-count-acc-complete/monolithic-clingo-count-acc-complete_results.txt",
-"/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_dense_stable/monolithic-clingo-count-acc-stable/monolithic-clingo-count-acc-stable_results.txt",
-"/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_dense_stable/td-python-acc-real-efficient-join-complete/td-python-acc-real-efficient-join-complete_results.txt",
-"/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_dense_stable/td-python-acc-real-efficient-join-stable/td-python-acc-real-efficient-join-stable_results.txt"
 
-]
-'''
 
 files = ["/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_rerun_ver/td-python-ver-rational-efficient-join/td-python-ver-rational-efficient-join_results.txt",
 "/Users/andrei/Documents/GitLab/praaf-tree-decomposition/Experiments/Run/compiled_results_rerun_ver/td-python-ver-real-efficientjoin/td-python-ver-real-efficientjoin_results.txt"]
