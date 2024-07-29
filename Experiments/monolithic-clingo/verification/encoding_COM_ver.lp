@@ -11,19 +11,6 @@
 
 :- not extension(A), in(A).
 
-%P-ACCsem(a)
-% for the ACC problem this is not enoough, because the above code fixes the extension
-% but we want to check among all of them, if any includes the query(a).
-%{in(A)} :- arg(A), a(A).
-%:-not in(A), query(A).
-
-
-%def(A):- arg(A), arg(B), att(B, A), atck(B,A), in(B), not in(A).
-
-%Skeptical acceptance
-%:- query(A), in(A). %no solutions should be left, which means no solution was found where the query is not in.
-% credolous acceptance
-%:- query(A), not in(A). %remove all solutions where the query is not in: if a solution is left then that is enough for a YES answer.
 
 % SUBGRAPHS 
 {a(A)}:- arg(A).
