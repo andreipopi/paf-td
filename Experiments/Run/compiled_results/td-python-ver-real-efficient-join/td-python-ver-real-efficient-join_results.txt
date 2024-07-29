@@ -1,0 +1,140 @@
+k3_n5_qa8_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 5.9053854021e-05, #   total CPU user time (s): 3.46839
+k3_n5_qa5_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 1.6252518646999998e-05, #   total CPU user time (s): 0.957735
+k3_n5_qa14_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0009519268076210001, #   total CPU user time (s): 2.21234
+k3_n5_qa4_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.000509684074398, #   total CPU user time (s): 1.13886
+k3_n10_qa13_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 1.0218370000000001e-09, #   total CPU user time (s): 0.932714
+k3_n10_qa12_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 3.5281708e-08, #   total CPU user time (s): 3.23231
+k3_n10_qa13_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 9.9109e-11, #   total CPU user time (s): 2.43661
+k3_n10_qa24_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 1.547768e-09, #   total CPU user time (s): 2.13166
+k3_n20_qa20_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 3.45265
+k3_n20_qa20_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 3.24875
+k3_n20_qa5_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 5.18907
+k3_n20_qa24_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 3.32322
+k3_n50_qa100_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 20.8059
+k3_n50_qa30_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 12.6893
+k3_n50_qa83_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 23.6182
+k3_n50_qa116_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 4.68326
+k3_n75_qa62_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 22.2739
+k3_n75_qa15_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 12.0872
+k3_n75_qa196_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 20.3505
+k3_n75_qa99_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 18.595
+k3_n100_qa257_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 18.3824
+k3_n100_qa160_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 27.8158
+k3_n100_qa268_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 21.5991
+k3_n100_qa269_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT: 0, #   total CPU user time (s): 8.89154
+k3_n150_qa298_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 29.2574
+k3_n150_qa45_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 47.5105
+k3_n150_qa140_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 35.3487
+k3_n150_qa293_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 39.304
+k4_n5_qa11_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 1.0211791724e-05, #   total CPU user time (s): 2.1292
+k4_n5_qa19_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 2.599647155e-06, #   total CPU user time (s): 0.685225
+k4_n5_qa18_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 7.380762517e-06, #   total CPU user time (s): 3.41326
+k4_n5_qa2_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 7.8770589868e-05, #   total CPU user time (s): 0.647566
+k4_n10_qa14_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 7e-15, #   total CPU user time (s): 2.89864
+k4_n10_qa0_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 4.899999999999999e-13, #   total CPU user time (s): 1.8385
+k4_n10_qa23_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 1.174e-12, #   total CPU user time (s): 5.55005
+k4_n10_qa13_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 2.48891
+k4_n20_qa44_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 11.107
+k4_n20_qa59_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 10.5584
+k4_n20_qa32_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 10.948
+k4_n20_qa79_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 14.8013
+k4_n50_qa15_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 23.8569
+k4_n50_qa44_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 22.468
+k4_n50_qa121_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 27.3557
+k4_n50_qa112_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 19.7726
+k4_n75_qa151_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 22.5565
+k4_n75_qa140_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 40.8243
+k4_n75_qa262_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 49.6995
+k4_n75_qa238_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 41.6879
+k4_n100_qa214_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 84.1238
+k4_n100_qa347_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 42.7661
+k4_n100_qa388_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 73.9347
+k4_n100_qa119_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 75.244
+k4_n150_qa194_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 93.5968
+k4_n150_qa89_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 62.697
+k4_n150_qa542_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT: 0, #   total CPU user time (s): 52.0899
+k4_n150_qa398_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 62.7244
+k5_n5_qa0_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.000101669086027, #   total CPU user time (s): 3.59719
+k5_n5_qa15_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 4.7315300000000005e-09, #   total CPU user time (s): 3.09674
+k5_n5_qa14_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 6.726847790000001e-07, #   total CPU user time (s): 0.828291
+k5_n5_qa20_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 2.5422652399999996e-07, #   total CPU user time (s): 1.20898
+k5_n10_qa21_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 1.8474e-11, #   total CPU user time (s): 5.05686
+k5_n10_qa29_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT: 0, #   total CPU user time (s): 7.73921
+k5_n10_qa29_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 1.8799999999999998e-13, #   total CPU user time (s): 5.75118
+k5_n10_qa8_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 3.5e-14, #   total CPU user time (s): 7.4306
+k5_n20_qa77_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 59.5715
+k5_n20_qa5_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 32.803
+k5_n20_qa31_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 49.0226
+k5_n20_qa53_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 58.3418
+k5_n50_qa19_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 77.5919
+k5_n50_qa84_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT: 0, #   total CPU user time (s): 20.6982
+k5_n50_qa101_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 91.8294
+k5_n50_qa143_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 59.3178
+k5_n75_qa241_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 183.407
+k5_n75_qa291_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 73.2915
+k5_n75_qa303_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 111.92
+k5_n75_qa198_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 101.267
+k5_n100_qa103_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 145.16
+k5_n100_qa212_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 166.469
+k5_n100_qa472_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 101.396
+k5_n100_qa121_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 139.2
+k5_n150_qa568_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 148.677
+k5_n150_qa730_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 144.021
+k5_n150_qa322_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 269.302
+k5_n150_qa558_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 198.704
+k6_n5_qa15_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 1.1323161599999999e-07, #   total CPU user time (s): 3.56885
+k6_n5_qa5_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 6.018599999999999e-11, #   total CPU user time (s): 1.46124
+k6_n5_qa10_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 3.3049200000000003e-10, #   total CPU user time (s): 4.78216
+k6_n5_qa8_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 1.060482e-09, #   total CPU user time (s): 4.09006
+k6_n10_qa56_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 8.91999
+k6_n10_qa12_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 5.77614
+k6_n10_qa45_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 8.49037
+k6_n10_qa53_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 12.6182
+k6_n20_qa63_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 120.762
+k6_n20_qa44_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT: 0, #   total CPU user time (s): 1.5697
+k6_n20_qa39_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 22.1392
+k6_n20_qa54_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 9.65648
+k6_n50_qa97_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 211.635
+k6_n50_qa59_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 124.949
+k6_n50_qa53_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 67.8676
+k6_n50_qa182_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k6_n75_qa262_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 285.585
+k6_n75_qa322_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k6_n75_qa60_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 151.607
+k6_n75_qa77_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k6_n100_qa153_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 241.135
+k6_n100_qa65_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k6_n100_qa359_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 252.073
+k6_n100_qa191_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 188.323
+k6_n150_qa774_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k6_n150_qa739_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k6_n150_qa248_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k6_n150_qa611_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n5_qa2_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 4.0915e-11, #   total CPU user time (s): 5.08293
+k7_n5_qa20_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 4.9286e-11, #   total CPU user time (s): 3.03268
+k7_n5_qa0_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 2.2109e-11, #   total CPU user time (s): 1.67149
+k7_n5_qa14_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 8.380000000000001e-13, #   total CPU user time (s): 6.05997
+k7_n10_qa45_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 33.9865
+k7_n10_qa18_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 34.6189
+k7_n10_qa20_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 3.71356
+k7_n10_qa66_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 15.1639
+k7_n20_qa64_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 31.7862
+k7_n20_qa4_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 31.8862
+k7_n20_qa100_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 33.6298
+k7_n20_qa84_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 34.7184
+k7_n50_qa63_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT: 0, #   total CPU user time (s): 60.9174
+k7_n50_qa135_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT: 0, #   total CPU user time (s): 18.1132
+k7_n50_qa60_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 144.173
+k7_n50_qa27_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 254.077
+k7_n75_qa323_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 288.374
+k7_n75_qa169_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, RESULT 0.0, #   total CPU user time (s): 237.795
+k7_n75_qa88_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n75_qa181_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n100_qa343_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n100_qa692_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n100_qa122_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n100_qa500_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n150_qa423_1.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n150_qa959_2.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n150_qa108_3.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT
+k7_n150_qa377_4.lp.td-python-ver-real-efficient-join, td-python-ver-real-efficient-join, TIMEOUT

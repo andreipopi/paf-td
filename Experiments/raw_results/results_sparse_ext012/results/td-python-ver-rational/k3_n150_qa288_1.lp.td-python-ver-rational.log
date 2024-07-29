@@ -1,0 +1,123 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 9662 MiB (8195 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_td_python_ver_rational.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances/k3_n150_qa288_1.lp 
+
+running on 2 cores: 0-1
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.5.0-27-generic
+Current StackSize limit: 8192 KiB
+
+solver pid=84222, runsolver pid=84221
+
+[startup+0.100874 s]*
+/proc/loadavg: 1.72 1.36 1.34 6/705 84224
+/proc/meminfo: memFree=8383424/9894536 swapFree=838728/2097148
+[pid=84222] ppid=84221 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/84222/stat : 84222 (sh) S 84221 84222 3733 34817 53641 4194304 103 0 0 0 0 0 0 0 20 0 1 0 7933603 2965504 416 18446744073709551615 108797955796992 108797955877269 140734683161952 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 108797955903216 108797955908128 108797978271744 140734683167825 140734683167996 140734683167996 140734683172848 0
+/proc/84222/statm: 724 416 416 20 0 92 0
+[pid=84224] ppid=84222 vsize=16884 memory=11008 CPUtime=0.08 cores=0-1
+/proc/84224/stat : 84224 (python3) S 84222 84222 3733 34817 53641 4194304 1497 0 0 0 7 1 0 0 20 0 1 0 7933604 17289216 2752 18446744073709551615 106367074959360 106367077774077 140720768780880 0 0 0 0 16781312 2 1 0 0 17 0 0 0 0 0 0 106367080134704 106367080418680 106367082958848 140720768789495 140720768789747 140720768789747 140720768794599 0
+/proc/84224/statm: 4221 2752 1440 688 0 1757 0
+Current children cumulated CPU time: 0.08 s
+Current children cumulated vsize: 19780 KiB
+Current children cumulated memory: 12672 KiB
+
+[startup+0.408807 s]*
+/proc/loadavg: 1.72 1.36 1.34 3/707 84227
+/proc/meminfo: memFree=8383424/9894536 swapFree=839496/2097148
+[pid=84222] ppid=84221 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/84222/stat : 84222 (sh) S 84221 84222 3733 34817 53641 4194304 103 0 0 0 0 0 0 0 20 0 1 0 7933603 2965504 416 18446744073709551615 108797955796992 108797955877269 140734683161952 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 108797955903216 108797955908128 108797978271744 140734683167825 140734683167996 140734683167996 140734683172848 0
+/proc/84222/statm: 724 416 416 20 0 92 0
+[pid=84224] ppid=84222 vsize=19032 memory=13828 CPUtime=0.41 cores=0-1
+/proc/84224/stat : 84224 (python3) R 84222 84222 3733 34817 53641 4194304 2358 828 0 0 17 3 16 5 20 0 1 0 7933604 19488768 3457 18446744073709551615 106367074959360 106367077774077 140720768780880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 106367080134704 106367080418680 106367082958848 140720768789495 140720768789747 140720768789747 140720768794599 0
+/proc/84224/statm: 4758 3457 1472 688 0 2294 0
+Current children cumulated CPU time: 0.41 s
+Current children cumulated vsize: 21928 KiB
+Current children cumulated memory: 15492 KiB
+{'a0': 1, 'a1': 2, 'a10': 3, 'a100': 4, 'a101': 5}
+RESULT: 0
+
+[startup+0.623944 s]
+# the end of solver process 84222 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.373236 s, system=0.09736 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+Child status: 0
+Real time (s): 0.624057
+CPU time (s): 0.470596
+CPU user time (s): 0.373236
+CPU system time (s): 0.09736
+CPU usage (%): 75.4091
+Max. virtual memory (cumulated for all children) (KiB): 21928
+Max. memory (cumulated for all children) (KiB): 15492
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.373236
+system time used= 0.09736
+maximum resident set size= 13956
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 3382
+page faults= 0
+swaps= 0
+block input operations= 0
+block output operations= 8
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 2186
+involuntary context switches= 2362
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 84222
+#   total CPU time (s): 0.470596
+#   total CPU user time (s): 0.373236
+#   total CPU system time (s): 0.09736
+
+??? end of timestamper thread
+runsolver used 0.206755 second user time and 0.056387 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_td_python_ver_rational.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances/k3_n150_qa288_1.lp"
+	User time (seconds): 0.58
+	System time (seconds): 0.15
+	Percent of CPU this job got: 90%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.81
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 13956
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 3757
+	Voluntary context switches: 2193
+	Involuntary context switches: 2510
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 24
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

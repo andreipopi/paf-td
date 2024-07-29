@@ -1,0 +1,1 @@
+python3 /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/td-python/verification/rational/post_order_ver.py $1

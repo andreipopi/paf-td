@@ -1,0 +1,125 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 9662 MiB (8350 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_monolithic_python_acc_rational.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances/k20_n150_qa2440_3.lp 
+
+running on 2 cores: 0-1
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.5.0-27-generic
+Current StackSize limit: 8192 KiB
+
+solver pid=71188, runsolver pid=71187
+
+[startup+0.100853 s]*
+/proc/loadavg: 1.25 1.37 1.39 3/703 71190
+/proc/meminfo: memFree=8518928/9894536 swapFree=819608/2097148
+[pid=71188] ppid=71187 vsize=2896 memory=1536 CPUtime=0 cores=0-1
+/proc/71188/stat : 71188 (sh) S 71187 71188 3733 34817 53641 4194304 103 0 0 0 0 0 0 0 20 0 1 0 7088425 2965504 384 18446744073709551615 109530351185920 109530351266197 140723648324848 0 0 0 0 0 65538 1 0 0 17 1 0 0 0 0 0 109530351292144 109530351297056 109530351665152 140723648330823 140723648331004 140723648331004 140723648335856 0
+/proc/71188/statm: 724 384 384 20 0 92 0
+[pid=71190] ppid=71188 vsize=24848 memory=13568 CPUtime=0.07 cores=0-1
+/proc/71190/stat : 71190 (python3) R 71188 71188 3733 34817 53641 4194304 1514 0 36 0 4 3 0 0 20 0 1 0 7088426 25444352 3392 18446744073709551615 104286697451520 104286700266237 140733560261872 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 104286702626864 104286702910840 104286722142208 140733560265701 140733560265971 140733560265971 140733560270823 0
+/proc/71190/statm: 6212 3392 2144 688 0 1735 0
+Current children cumulated CPU time: 0.07 s
+Current children cumulated vsize: 27744 KiB
+Current children cumulated memory: 15104 KiB
+
+[startup+0.248703 s]*
+/proc/loadavg: 1.25 1.37 1.39 3/703 71190
+/proc/meminfo: memFree=8516160/9894536 swapFree=819608/2097148
+[pid=71188] ppid=71187 vsize=2896 memory=1536 CPUtime=0 cores=0-1
+/proc/71188/stat : 71188 (sh) S 71187 71188 3733 34817 53641 4194304 103 0 0 0 0 0 0 0 20 0 1 0 7088425 2965504 384 18446744073709551615 109530351185920 109530351266197 140723648324848 0 0 0 0 0 65538 1 0 0 17 1 0 0 0 0 0 109530351292144 109530351297056 109530351665152 140723648330823 140723648331004 140723648331004 140723648335856 0
+/proc/71188/statm: 724 384 384 20 0 92 0
+[pid=71190] ppid=71188 vsize=32068 memory=20096 CPUtime=0.16 cores=0-1
+/proc/71190/stat : 71190 (python3) R 71188 71188 3733 34817 53641 4194304 2373 0 93 0 10 6 0 0 20 0 1 0 7088426 32837632 5024 18446744073709551615 104286697451520 104286700266237 140733560261872 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 104286702626864 104286702910840 104286722142208 140733560265701 140733560265971 140733560265971 140733560270823 0
+/proc/71190/statm: 8017 5024 2944 688 0 2222 0
+Current children cumulated CPU time: 0.16 s
+Current children cumulated vsize: 34964 KiB
+Current children cumulated memory: 21632 KiB
+  File "/home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/monolithic-python/acceptability/rational/monolithic_solver_acc.py", line 32
+    print("RESULT: ", P)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 29
+
+[startup+0.483827 s]
+# the end of solver process 71188 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.180155 s, system=0.08908 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+Child status: 1
+Real time (s): 0.483896
+CPU time (s): 0.269235
+CPU user time (s): 0.180155
+CPU system time (s): 0.08908
+CPU usage (%): 55.639
+Max. virtual memory (cumulated for all children) (KiB): 34964
+Max. memory (cumulated for all children) (KiB): 21632
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.180155
+system time used= 0.08908
+maximum resident set size= 24448
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 3406
+page faults= 112
+swaps= 0
+block input operations= 28816
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 284
+involuntary context switches= 98
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 71188
+#   total CPU time (s): 0.269235
+#   total CPU user time (s): 0.180155
+#   total CPU system time (s): 0.08908
+
+??? end of timestamper thread
+runsolver used 0.137463 second user time and 0.038184 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_monolithic_python_acc_rational.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances/k20_n150_qa2440_3.lp"
+	User time (seconds): 0.31
+	System time (seconds): 0.12
+	Percent of CPU this job got: 77%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 24448
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 112
+	Minor (reclaiming a frame) page faults: 3783
+	Voluntary context switches: 292
+	Involuntary context switches: 149
+	Swaps: 0
+	File system inputs: 29080
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

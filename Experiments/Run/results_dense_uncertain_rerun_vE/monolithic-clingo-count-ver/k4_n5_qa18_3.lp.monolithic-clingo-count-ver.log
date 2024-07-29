@@ -1,0 +1,162 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 15948 MiB (8625 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_monolithic_clingo_count_ver.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances_asp_dense_uncertain/k4_n5_qa18_3.lp 
+
+running on 1 cores: 0
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.5.0-28-generic
+solver pid=26258, runsolver pid=26257
+Current StackSize limit: 8192 KiB
+
+clingo version 5.4.1
+Reading from ...lingo/verification/encoding_COM_ver.lp ...
+/home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/monolithic-clingo/verification/encoding_COM_ver.lp:5:3-15: info: atom does not occur in any rule head:
+  extension(A)
+
+/home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/monolithic-clingo/verification/encoding_COM_ver.lp:12:8-20: info: atom does not occur in any rule head:
+  extension(A)
+
+Solving...
+
+[startup+0.100431 s]*
+/proc/loadavg: 1.25 1.33 1.35 2/786 26260
+/proc/meminfo: memFree=8831944/16331376 swapFree=257196/2097148
+[pid=26258] ppid=26257 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/26258/stat : 26258 (sh) S 26257 26258 3219 34816 13050 4194304 102 0 0 0 0 0 0 0 20 0 1 0 4571352 2965504 384 18446744073709551615 94098903912448 94098903992725 140729170856496 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 94098904018672 94098904023584 94098926796800 140729170861059 140729170861252 140729170861252 140729170866160 0
+/proc/26258/statm: 724 384 384 20 0 92 0
+[pid=26260] ppid=26258 vsize=18064 memory=8960 CPUtime=0.08 cores=0
+/proc/26260/stat : 26260 (clingo) R 26258 26258 3219 34816 13050 4194304 410 0 0 0 8 0 0 0 20 0 1 0 4571352 18497536 2240 18446744073709551615 98752527065088 98752527471961 140729586968608 0 0 0 0 0 25184775 0 0 0 17 0 0 0 0 0 0 98752527683896 98752527722720 98752533491712 140729586973610 140729586973884 140729586973884 140729586978792 0
+/proc/26260/statm: 4516 2240 2016 100 0 354 0
+Current children cumulated CPU time: 0.08 s
+Current children cumulated vsize: 20960 KiB
+Current children cumulated memory: 10496 KiB
+
+[startup+0.221473 s]*
+/proc/loadavg: 1.25 1.33 1.35 2/786 26260
+/proc/meminfo: memFree=8831944/16331376 swapFree=257196/2097148
+[pid=26258] ppid=26257 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/26258/stat : 26258 (sh) S 26257 26258 3219 34816 13050 4194304 102 0 0 0 0 0 0 0 20 0 1 0 4571352 2965504 384 18446744073709551615 94098903912448 94098903992725 140729170856496 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 94098904018672 94098904023584 94098926796800 140729170861059 140729170861252 140729170861252 140729170866160 0
+/proc/26258/statm: 724 384 384 20 0 92 0
+[pid=26260] ppid=26258 vsize=18064 memory=8960 CPUtime=0.19 cores=0
+/proc/26260/stat : 26260 (clingo) R 26258 26258 3219 34816 13050 4194304 410 0 0 0 19 0 0 0 20 0 1 0 4571352 18497536 2240 18446744073709551615 98752527065088 98752527471961 140729586968608 0 0 0 0 0 25184775 0 0 0 17 0 0 0 0 0 0 98752527683896 98752527722720 98752533491712 140729586973610 140729586973884 140729586973884 140729586978792 0
+/proc/26260/statm: 4516 2240 2016 100 0 354 0
+Current children cumulated CPU time: 0.19 s
+Current children cumulated vsize: 20960 KiB
+Current children cumulated memory: 10496 KiB
+
+[startup+0.322303 s]*
+/proc/loadavg: 1.25 1.33 1.35 3/786 26260
+/proc/meminfo: memFree=8831696/16331376 swapFree=257196/2097148
+[pid=26258] ppid=26257 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/26258/stat : 26258 (sh) S 26257 26258 3219 34816 13050 4194304 102 0 0 0 0 0 0 0 20 0 1 0 4571352 2965504 384 18446744073709551615 94098903912448 94098903992725 140729170856496 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 94098904018672 94098904023584 94098926796800 140729170861059 140729170861252 140729170861252 140729170866160 0
+/proc/26258/statm: 724 384 384 20 0 92 0
+[pid=26260] ppid=26258 vsize=18064 memory=8960 CPUtime=0.27 cores=0
+/proc/26260/stat : 26260 (clingo) R 26258 26258 3219 34816 13050 4194304 410 0 0 0 27 0 0 0 20 0 1 0 4571352 18497536 2240 18446744073709551615 98752527065088 98752527471961 140729586968608 0 0 0 0 0 25184775 0 0 0 17 0 0 0 0 0 0 98752527683896 98752527722720 98752533491712 140729586973610 140729586973884 140729586973884 140729586978792 0
+/proc/26260/statm: 4516 2240 2016 100 0 354 0
+Current children cumulated CPU time: 0.27 s
+Current children cumulated vsize: 20960 KiB
+Current children cumulated memory: 10496 KiB
+SATISFIABLE
+
+Models       : 902770
+Calls        : 1
+Time         : 0.388s (Solving: 0.37s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.318s
+
+[startup+0.39312 s]
+# the end of solver process 26258 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.314759 s, system=0.007978 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+[startup+0.322303 s]*
+/proc/loadavg: 1.25 1.33 1.35 3/786 26260
+/proc/meminfo: memFree=8831696/16331376 swapFree=257196/2097148
+[pid=26258] ppid=26257 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/26258/stat : 26258 (sh) S 26257 26258 3219 34816 13050 4194304 102 0 0 0 0 0 0 0 20 0 1 0 4571352 2965504 384 18446744073709551615 94098903912448 94098903992725 140729170856496 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 94098904018672 94098904023584 94098926796800 140729170861059 140729170861252 140729170861252 140729170866160 0
+/proc/26258/statm: 724 384 384 20 0 92 0
+[pid=26260] ppid=26258 vsize=18064 memory=8960 CPUtime=0.27 cores=0
+/proc/26260/stat : 26260 (clingo) R 26258 26258 3219 34816 13050 4194304 410 0 0 0 27 0 0 0 20 0 1 0 4571352 18497536 2240 18446744073709551615 98752527065088 98752527471961 140729586968608 0 0 0 0 0 25184775 0 0 0 17 0 0 0 0 0 0 98752527683896 98752527722720 98752533491712 140729586973610 140729586973884 140729586973884 140729586978792 0
+/proc/26260/statm: 4516 2240 2016 100 0 354 0
+Current children cumulated CPU time: 0.27 s
+Current children cumulated vsize: 20960 KiB
+Current children cumulated memory: 10496 KiB
+
+Child status: 30
+Real time (s): 0.393163
+CPU time (s): 0.322737
+CPU user time (s): 0.314759
+CPU system time (s): 0.007978
+CPU usage (%): 82.0873
+Max. virtual memory (cumulated for all children) (KiB): 20960
+Max. memory (cumulated for all children) (KiB): 10496
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.314759
+system time used= 0.007978
+maximum resident set size= 9344
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 522
+page faults= 0
+swaps= 0
+block input operations= 8
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 5
+involuntary context switches= 124
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 26258
+#   total CPU time (s): 0.322737
+#   total CPU user time (s): 0.314759
+#   total CPU system time (s): 0.007978
+
+??? end of timestamper thread
+runsolver used 0.043281 second user time and 0.028854 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_monolithic_clingo_count_ver.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances_asp_dense_uncertain/k4_n5_qa18_3.lp"
+	User time (seconds): 0.35
+	System time (seconds): 0.03
+	Percent of CPU this job got: 83%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.47
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9344
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 985
+	Voluntary context switches: 13
+	Involuntary context switches: 155
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

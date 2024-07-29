@@ -1,0 +1,140 @@
+k3_n5_qa8_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 5.9053854021e-05, #   total CPU user time (s): 3.52287
+k3_n5_qa5_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 1.6252518646999998e-05, #   total CPU user time (s): 1.02743
+k3_n5_qa14_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0009519268076210001, #   total CPU user time (s): 2.21112
+k3_n5_qa4_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.000509684074398, #   total CPU user time (s): 1.1432
+k3_n10_qa13_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 1.0218370000000001e-09, #   total CPU user time (s): 0.995449
+k3_n10_qa12_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 3.5281708e-08, #   total CPU user time (s): 3.39948
+k3_n10_qa13_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 9.9109e-11, #   total CPU user time (s): 2.49526
+k3_n10_qa24_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 1.5477749999999999e-09, #   total CPU user time (s): 2.14592
+k3_n20_qa20_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 3.53124
+k3_n20_qa20_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 3.41038
+k3_n20_qa5_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 5.30735
+k3_n20_qa24_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 3.3899
+k3_n50_qa100_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 22.0559
+k3_n50_qa30_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 12.7874
+k3_n50_qa83_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 26.1939
+k3_n50_qa116_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 4.9661
+k3_n75_qa62_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 23.2617
+k3_n75_qa15_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 12.5084
+k3_n75_qa196_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 20.506
+k3_n75_qa99_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 18.6189
+k3_n100_qa257_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 18.6542
+k3_n100_qa160_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 28.1189
+k3_n100_qa268_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 22.4681
+k3_n100_qa269_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT: 0, #   total CPU user time (s): 8.93126
+k3_n150_qa298_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 29.7352
+k3_n150_qa45_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 49.6713
+k3_n150_qa140_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 35.9265
+k3_n150_qa293_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 40.2334
+k4_n5_qa11_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 1.0211791724e-05, #   total CPU user time (s): 2.14845
+k4_n5_qa19_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 2.599647155e-06, #   total CPU user time (s): 0.629843
+k4_n5_qa18_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 7.380762517e-06, #   total CPU user time (s): 3.39516
+k4_n5_qa2_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 7.8770589868e-05, #   total CPU user time (s): 0.680625
+k4_n10_qa14_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 7e-15, #   total CPU user time (s): 2.11555
+k4_n10_qa0_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 4.899999999999999e-13, #   total CPU user time (s): 2.05542
+k4_n10_qa23_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 1.174e-12, #   total CPU user time (s): 5.71567
+k4_n10_qa13_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 2.58192
+k4_n20_qa44_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 11.3746
+k4_n20_qa59_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 10.8986
+k4_n20_qa32_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 11.2431
+k4_n20_qa79_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 15.2475
+k4_n50_qa15_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 23.9797
+k4_n50_qa44_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 20.2658
+k4_n50_qa121_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 27.8564
+k4_n50_qa112_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 20.0158
+k4_n75_qa151_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 20.3803
+k4_n75_qa140_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 39.743
+k4_n75_qa262_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 51.6548
+k4_n75_qa238_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 40.8738
+k4_n100_qa214_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 85.913
+k4_n100_qa347_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 42.4147
+k4_n100_qa388_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 76.7177
+k4_n100_qa119_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 75.7707
+k4_n150_qa194_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 97.7826
+k4_n150_qa89_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 63.6177
+k4_n150_qa542_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT: 0, #   total CPU user time (s): 51.6684
+k4_n150_qa398_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 66.3823
+k5_n5_qa0_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.000101669089846, #   total CPU user time (s): 3.60836
+k5_n5_qa15_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 4.7315300000000005e-09, #   total CPU user time (s): 2.95439
+k5_n5_qa14_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 6.726847790000001e-07, #   total CPU user time (s): 0.853458
+k5_n5_qa20_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 2.5422652399999996e-07, #   total CPU user time (s): 1.17694
+k5_n10_qa21_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 1.8474e-11, #   total CPU user time (s): 5.06332
+k5_n10_qa29_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT: 0, #   total CPU user time (s): 8.00986
+k5_n10_qa29_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 1.8799999999999998e-13, #   total CPU user time (s): 5.70855
+k5_n10_qa8_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 3.5e-14, #   total CPU user time (s): 7.74977
+k5_n20_qa77_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 61.7275
+k5_n20_qa5_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 36.3496
+k5_n20_qa31_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 57.2169
+k5_n20_qa53_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 48.8522
+k5_n50_qa19_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 86.4084
+k5_n50_qa84_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT: 0, #   total CPU user time (s): 18.1911
+k5_n50_qa101_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 96.0344
+k5_n50_qa143_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 62.4667
+k5_n75_qa241_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 187.437
+k5_n75_qa291_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 74.0483
+k5_n75_qa303_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 105.339
+k5_n75_qa198_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 101.192
+k5_n100_qa103_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 151.699
+k5_n100_qa212_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 171.141
+k5_n100_qa472_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 104.029
+k5_n100_qa121_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 142.907
+k5_n150_qa568_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 150.483
+k5_n150_qa730_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 144.866
+k5_n150_qa322_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 254.013
+k5_n150_qa558_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 205.299
+k6_n5_qa15_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 1.1323161599999999e-07, #   total CPU user time (s): 3.51383
+k6_n5_qa5_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 6.018599999999999e-11, #   total CPU user time (s): 1.42585
+k6_n5_qa10_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 3.3049200000000003e-10, #   total CPU user time (s): 4.80829
+k6_n5_qa8_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 1.060262e-09, #   total CPU user time (s): 3.51028
+k6_n10_qa56_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 8.7597
+k6_n10_qa12_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 4.76463
+k6_n10_qa45_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 8.6144
+k6_n10_qa53_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 12.761
+k6_n20_qa63_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 114.602
+k6_n20_qa44_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT: 0, #   total CPU user time (s): 1.49319
+k6_n20_qa39_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 22.204
+k6_n20_qa54_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 9.41289
+k6_n50_qa97_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 218.5
+k6_n50_qa59_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 125.483
+k6_n50_qa53_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 67.9741
+k6_n50_qa182_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k6_n75_qa262_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k6_n75_qa322_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k6_n75_qa60_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 151.544
+k6_n75_qa77_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k6_n100_qa153_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 247.432
+k6_n100_qa65_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k6_n100_qa359_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 265.878
+k6_n100_qa191_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 190.587
+k6_n150_qa774_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k6_n150_qa739_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k6_n150_qa248_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k6_n150_qa611_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n5_qa2_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 4.0748000000000004e-11, #   total CPU user time (s): 5.29442
+k7_n5_qa20_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 4.9286e-11, #   total CPU user time (s): 3.13685
+k7_n5_qa0_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 2.2109e-11, #   total CPU user time (s): 1.62602
+k7_n5_qa14_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 8.380000000000001e-13, #   total CPU user time (s): 6.25708
+k7_n10_qa45_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 31.9338
+k7_n10_qa18_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 35.258
+k7_n10_qa20_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 3.73971
+k7_n10_qa66_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 14.7204
+k7_n20_qa64_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 33.1438
+k7_n20_qa4_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 31.8958
+k7_n20_qa100_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 36.212
+k7_n20_qa84_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 36.4835
+k7_n50_qa63_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT: 0, #   total CPU user time (s): 60.904
+k7_n50_qa135_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT: 0, #   total CPU user time (s): 18.6604
+k7_n50_qa60_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 143.306
+k7_n50_qa27_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 266.996
+k7_n75_qa323_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 292.964
+k7_n75_qa169_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, RESULT 0.0, #   total CPU user time (s): 235.957
+k7_n75_qa88_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n75_qa181_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n100_qa343_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n100_qa692_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n100_qa122_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n100_qa500_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n150_qa423_1.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n150_qa959_2.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n150_qa108_3.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT
+k7_n150_qa377_4.lp.td-python-ver-rational-efficient-join, td-python-ver-rational-efficient-join, TIMEOUT

@@ -1,0 +1,1 @@
+python3 /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/monolithic-python/verification/real/monolithic_solver_ver.py $1

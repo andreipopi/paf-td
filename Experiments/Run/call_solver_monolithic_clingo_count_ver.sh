@@ -1,0 +1,1 @@
+clingo /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/monolithic-clingo/verification/encoding_COM_ver.lp $1 0 -q

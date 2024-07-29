@@ -1,0 +1,130 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 15948 MiB (8587 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_monolithic_clingo_count_ver.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances_asp_dense_uncertain/k7_n5_qa14_4.lp 
+
+running on 1 cores: 0
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.5.0-28-generic
+solver pid=51701, runsolver pid=51700
+Current StackSize limit: 8192 KiB
+
+clingo version 5.4.1
+Reading from ...lingo/verification/encoding_COM_ver.lp ...
+Solving...
+
+[startup+0.101015 s]*
+/proc/loadavg: 1.37 1.35 1.30 2/793 51703
+/proc/meminfo: memFree=8789064/16331376 swapFree=257344/2097148
+[pid=51701] ppid=51700 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/51701/stat : 51701 (sh) S 51700 51701 3219 34816 26624 4194304 104 0 0 0 0 0 0 0 20 0 1 0 6711296 2965504 384 18446744073709551615 106352651284480 106352651364757 140725506874688 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 106352651390704 106352651395616 106352658382848 140725506882563 140725506882756 140725506882756 140725506887664 0
+/proc/51701/statm: 724 384 384 20 0 92 0
+[pid=51703] ppid=51701 vsize=18052 memory=9088 CPUtime=0.09 cores=0
+/proc/51703/stat : 51703 (clingo) R 51701 51701 3219 34816 26624 4194304 431 0 0 0 9 0 0 0 20 0 1 0 6711296 18485248 2272 18446744073709551615 100221040091136 100221040498009 140723500857904 0 0 0 0 0 25184775 0 0 0 17 0 0 0 0 0 0 100221040709944 100221040748768 100221066330112 140723500866474 140723500866748 140723500866748 140723500871656 0
+/proc/51703/statm: 4513 2272 2016 100 0 351 0
+Current children cumulated CPU time: 0.09 s
+Current children cumulated vsize: 20948 KiB
+Current children cumulated memory: 10624 KiB
+
+[startup+0.222862 s]*
+/proc/loadavg: 1.37 1.35 1.30 2/793 51703
+/proc/meminfo: memFree=8788812/16331376 swapFree=257344/2097148
+[pid=51701] ppid=51700 vsize=2896 memory=1536 CPUtime=0 cores=0
+/proc/51701/stat : 51701 (sh) S 51700 51701 3219 34816 26624 4194304 104 0 0 0 0 0 0 0 20 0 1 0 6711296 2965504 384 18446744073709551615 106352651284480 106352651364757 140725506874688 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 106352651390704 106352651395616 106352658382848 140725506882563 140725506882756 140725506882756 140725506887664 0
+/proc/51701/statm: 724 384 384 20 0 92 0
+[pid=51703] ppid=51701 vsize=18052 memory=9088 CPUtime=0.19 cores=0
+/proc/51703/stat : 51703 (clingo) R 51701 51701 3219 34816 26624 4194304 431 0 0 0 19 0 0 0 20 0 1 0 6711296 18485248 2272 18446744073709551615 100221040091136 100221040498009 140723500857904 0 0 0 0 0 25184775 0 0 0 17 0 0 0 0 0 0 100221040709944 100221040748768 100221066330112 140723500866474 140723500866748 140723500866748 140723500871656 0
+/proc/51703/statm: 4513 2272 2016 100 0 351 0
+Current children cumulated CPU time: 0.19 s
+Current children cumulated vsize: 20948 KiB
+Current children cumulated memory: 10624 KiB
+SATISFIABLE
+
+Models       : 514476
+Calls        : 1
+Time         : 0.267s (Solving: 0.25s 1st Model: 0.00s Unsat: 0.00s)
+CPU Time     : 0.226s
+
+[startup+0.272156 s]
+# the end of solver process 51701 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.222806 s, system=0.00794 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+Child status: 30
+Real time (s): 0.27219
+CPU time (s): 0.230746
+CPU user time (s): 0.222806
+CPU system time (s): 0.00794
+CPU usage (%): 84.7739
+Max. virtual memory (cumulated for all children) (KiB): 20948
+Max. memory (cumulated for all children) (KiB): 10624
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.222806
+system time used= 0.00794
+maximum resident set size= 9472
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 544
+page faults= 0
+swaps= 0
+block input operations= 8
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 5
+involuntary context switches= 22
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 51701
+#   total CPU time (s): 0.230746
+#   total CPU user time (s): 0.222806
+#   total CPU system time (s): 0.00794
+
+??? end of timestamper thread
+runsolver used 0.036089 second user time and 0.035704 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_monolithic_clingo_count_ver.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances_asp_dense_uncertain/k7_n5_qa14_4.lp"
+	User time (seconds): 0.25
+	System time (seconds): 0.04
+	Percent of CPU this job got: 78%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.38
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9472
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 926
+	Voluntary context switches: 12
+	Involuntary context switches: 62
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,7254 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 15948 MiB (4803 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_td_python_ver_real_efficient_join.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances_dense_uncertain/k5_n150_qa730_2.lp 
+
+running on 2 cores: 0-1
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.5.0-35-generic
+solver pid=333992, runsolver pid=333991
+Current StackSize limit: 8192 KiB
+
+
+[startup+0.100374 s]*
+/proc/loadavg: 1.16 1.26 1.30 3/945 333995
+/proc/meminfo: memFree=4904184/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=132936 memory=38320 CPUtime=0.17 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 5310 0 0 0 11 6 0 0 20 0 2 0 41555305 136126464 9580 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 33234 9580 4960 688 0 15408 0
+[pid=333994/tid=333995] ppid=333992 vsize=133228 memory=4026532131 CPUtime=0.06 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) R 333992 333992 291783 34818 312326 4194368 3 0 0 0 3 3 0 0 20 0 2 0 41555308 136425472 9580 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 0.17 s
+Current children cumulated vsize: 135832 KiB
+Current children cumulated memory: 39984 KiB
+
+[startup+0.228712 s]*
+/proc/loadavg: 1.16 1.26 1.30 5/945 333995
+/proc/meminfo: memFree=4886544/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=168372 memory=65368 CPUtime=0.33 cores=0-1
+/proc/333994/stat : 333994 (python3) S 333992 333992 291783 34818 312326 4194304 10536 0 0 0 23 10 0 0 20 0 2 0 41555305 172412928 16342 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 42093 16342 7072 688 0 19920 0
+[pid=333994/tid=333995] ppid=333992 vsize=168372 memory=-6016569546725104752 CPUtime=0.08 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 0 0 0 4 4 0 0 20 0 2 0 41555308 172412928 16342 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 0.33 s
+Current children cumulated vsize: 171268 KiB
+Current children cumulated memory: 67032 KiB
+
+[startup+0.358594 s]*
+/proc/loadavg: 1.16 1.26 1.30 2/947 333997
+/proc/meminfo: memFree=4879236/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=168372 memory=65368 CPUtime=0.33 cores=0-1
+/proc/333994/stat : 333994 (python3) S 333992 333992 291783 34818 312326 4194304 10536 0 0 0 23 10 0 0 20 0 2 0 41555305 172412928 16342 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 42093 16342 7072 688 0 19920 0
+[pid=333996] ppid=333994 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333996/stat : 333996 (sh) S 333994 333992 291783 34818 312326 4194304 63 0 0 0 0 0 0 0 20 0 1 0 41555331 2965504 416 18446744073709551615 103926813564928 103926813645205 140723114301760 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 103926813671152 103926813676064 103926825177088 140723114306536 140723114306699 140723114306699 140723114311664 0
+/proc/333996/statm: 724 416 416 20 0 92 0
+[pid=333997] ppid=333996 vsize=13400 memory=9856 CPUtime=0.11 cores=0-1
+/proc/333997/stat : 333997 (htd_main-1.2.0) R 333996 333992 291783 34818 312326 4194304 1049 0 0 0 10 1 0 0 20 0 1 0 41555331 13721600 2464 18446744073709551615 98229108494336 98229108514629 140721277916896 0 0 0 0 0 16386 0 0 0 17 0 0 0 0 0 0 98229108525152 98229108527128 98229115215872 140721277918063 140721277918209 140721277918209 140721277923174 0
+/proc/333997/statm: 3350 2464 1568 5 0 835 0
+[pid=333994/tid=333995] ppid=333992 vsize=168372 memory=-6734707467956882537 CPUtime=0.08 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 0 0 0 4 4 0 0 20 0 2 0 41555308 172412928 16342 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 0.44 s
+Current children cumulated vsize: 187564 KiB
+Current children cumulated memory: 78552 KiB
+
+[startup+0.701986 s]
+/proc/loadavg: 1.16 1.26 1.30 2/947 333997
+/proc/meminfo: memFree=4877472/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=168372 memory=65368 CPUtime=0.33 cores=0-1
+/proc/333994/stat : 333994 (python3) S 333992 333992 291783 34818 312326 4194304 10536 0 0 0 23 10 0 0 20 0 2 0 41555305 172412928 16342 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 42093 16342 7072 688 0 19920 0
+[pid=333996] ppid=333994 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333996/stat : 333996 (sh) S 333994 333992 291783 34818 312326 4194304 63 0 0 0 0 0 0 0 20 0 1 0 41555331 2965504 416 18446744073709551615 103926813564928 103926813645205 140723114301760 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 103926813671152 103926813676064 103926825177088 140723114306536 140723114306699 140723114306699 140723114311664 0
+/proc/333996/statm: 724 416 416 20 0 92 0
+[pid=333997] ppid=333996 vsize=15648 memory=12288 CPUtime=0.42 cores=0-1
+/proc/333997/stat : 333997 (htd_main-1.2.0) R 333996 333992 291783 34818 312326 4194304 1629 0 0 0 41 1 0 0 20 0 1 0 41555331 16023552 3072 18446744073709551615 98229108494336 98229108514629 140721277916896 0 0 0 0 0 16386 0 0 0 17 0 0 0 0 0 0 98229108525152 98229108527128 98229115215872 140721277918063 140721277918209 140721277918209 140721277923174 0
+/proc/333997/statm: 3912 3072 1600 5 0 1397 0
+[pid=333994/tid=333995] ppid=333992 vsize=168372 memory=6400 CPUtime=0.08 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 0 0 0 4 4 0 0 20 0 2 0 41555308 172412928 16342 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 0.75 s
+Current children cumulated vsize: 189812 KiB
+Current children cumulated memory: 80984 KiB
+
+[startup+1.5005 s]
+/proc/loadavg: 1.16 1.26 1.30 7/950 334011
+/proc/meminfo: memFree=4872936/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=168372 memory=65368 CPUtime=0.33 cores=0-1
+/proc/333994/stat : 333994 (python3) S 333992 333992 291783 34818 312326 4194304 10536 0 0 0 23 10 0 0 20 0 2 0 41555305 172412928 16342 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 42093 16342 7072 688 0 19920 0
+[pid=333996] ppid=333994 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333996/stat : 333996 (sh) S 333994 333992 291783 34818 312326 4194304 63 0 0 0 0 0 0 0 20 0 1 0 41555331 2965504 416 18446744073709551615 103926813564928 103926813645205 140723114301760 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 103926813671152 103926813676064 103926825177088 140723114306536 140723114306699 140723114306699 140723114311664 0
+/proc/333996/statm: 724 416 416 20 0 92 0
+[pid=333997] ppid=333996 vsize=15744 memory=12288 CPUtime=1.14 cores=0-1
+/proc/333997/stat : 333997 (htd_main-1.2.0) R 333996 333992 291783 34818 312326 4194304 1631 0 0 0 112 2 0 0 20 0 1 0 41555331 16121856 3072 18446744073709551615 98229108494336 98229108514629 140721277916896 0 0 0 0 0 16386 0 0 0 17 0 0 0 0 0 0 98229108525152 98229108527128 98229115215872 140721277918063 140721277918209 140721277918209 140721277923174 0
+/proc/333997/statm: 3936 3072 1600 5 0 1421 0
+[pid=333994/tid=333995] ppid=333992 vsize=168372 memory=2372 CPUtime=0.08 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 0 0 0 4 4 0 0 20 0 2 0 41555308 172412928 16342 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 1.47 s
+Current children cumulated vsize: 189908 KiB
+Current children cumulated memory: 80984 KiB
+
+[startup+3.13944 s]
+/proc/loadavg: 1.16 1.26 1.30 7/945 334148
+/proc/meminfo: memFree=4871928/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=184732 memory=83724 CPUtime=3.08 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 14987 1701 0 0 168 14 122 4 20 0 2 0 41555305 189165568 20931 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 46183 20931 7680 688 0 24010 0
+[pid=333994/tid=333995] ppid=333992 vsize=184732 memory=0 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 189165568 20931 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 3.08 s
+Current children cumulated vsize: 187628 KiB
+Current children cumulated memory: 85388 KiB
+
+[startup+6.30086 s]
+/proc/loadavg: 1.22 1.27 1.31 2/948 334194
+/proc/meminfo: memFree=4847736/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=209500 memory=108684 CPUtime=6.23 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 21254 1701 0 0 476 21 122 4 20 0 2 0 41555305 214528000 27171 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 52375 27171 7680 688 0 30202 0
+[pid=333994/tid=333995] ppid=333992 vsize=209500 memory=12636 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 214528000 27171 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 6.23 s
+Current children cumulated vsize: 212396 KiB
+Current children cumulated memory: 110348 KiB
+{'a0': 1, 'a1': 2, 'a10': 3, 'a100': 4, 'a101': 5}
+
+NODE: 2266 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2541  intro
+
+NODE: 2542  intro
+
+NODE: 121  intro
+
+NODE: 1222  rem -  ['a551', 'a68']
+
+NODE: 106  intro
+
+NODE: 1214  rem -  ['a184', 'a551']
+
+NODE: 90  intro
+
+NODE: 1211  rem -  ['a184', 'a321']
+
+NODE: 80  intro
+
+NODE: 1875  rem -  ['a321', 'a431']
+
+NODE: 1208  rem -  ['a321']
+
+NODE: 1933  intro
+
+NODE: 70  intro
+
+NODE: 1873  rem -  ['a166', 'a698']
+
+NODE: 1205  rem -  ['a166']
+
+NODE: 1932  intro
+
+NODE: 61  intro
+
+NODE: 1474  rem -  ['a167', 'a282']
+
+NODE: 732  intro
+
+NODE: 2322 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2650  intro
+
+NODE: 275  intro
+
+NODE: 1272  rem -  ['a483']
+
+NODE: 261  intro
+
+NODE: 1607  rem -  ['a537']
+
+NODE: 865  intro
+
+NODE: 2317 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2640  intro
+
+NODE: 260  intro
+
+NODE: 1606  rem -  ['a537']
+
+NODE: 864  intro
+
+NODE: 245  join
+as list
+
+----------------
+
+NODE: 1260  rem -  ['a39']
+
+NODE: 1950  intro
+
+NODE: 230  intro
+
+NODE: 1254  rem -  ['a46', 'a514']
+
+NODE: 1948  intro
+
+NODE: 212  intro
+
+NODE: 1577  rem -  ['a26', 'a317', 'a46']
+
+NODE: 835  intro
+
+NODE: 2306 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2617  intro
+
+NODE: 2618  intro
+
+NODE: 229  intro
+
+NODE: 1253  rem -  ['a273', 'a517']
+
+NODE: 211  intro
+
+NODE: 1576  rem -  ['a273', 'a317']
+
+NODE: 2079  intro
+
+NODE: 834  intro
+
+NODE: 1150  join
+as list
+
+----------------
+
+NODE: 2298 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2605  intro
+
+NODE: 2606  intro
+
+NODE: 210  intro
+
+NODE: 1575  rem -  ['a26', 'a317']
+
+NODE: 2078  intro
+
+NODE: 833  intro
+
+NODE: 1149  join
+as list
+
+----------------
+
+NODE: 2368 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2728  intro
+
+NODE: 2729  intro
+
+NODE: 417  intro
+
+NODE: 1705  rem -  ['a518', 'a550']
+
+NODE: 2138  intro
+
+NODE: 963  intro
+
+NODE: 2367 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2726  intro
+
+NODE: 2727  intro
+
+NODE: 416  intro
+
+NODE: 1704  rem -  ['a275', 'a550']
+
+NODE: 2137  intro
+
+NODE: 962  intro
+
+NODE: 393  join
+as list
+
+----------------
+
+NODE: 1316  rem -  ['a268', 'a275', 'a518']
+
+NODE: 373  intro
+
+NODE: 1309  rem -  ['a191', 'a268', 'a518']
+
+NODE: 355  intro
+
+NODE: 1665  rem -  ['a191', 'a361', 'a518']
+
+NODE: 923  intro
+
+NODE: 2381 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2749  intro
+
+NODE: 450  intro
+
+NODE: 1345  rem -  ['a355']
+
+NODE: 436  intro
+
+NODE: 1335  rem -  ['a566']
+
+NODE: 1973  intro
+
+NODE: 415  intro
+
+NODE: 1325  rem -  ['a346', 'a38']
+
+NODE: 392  intro
+
+NODE: 1690  rem -  ['a346', 'a518']
+
+NODE: 948  intro
+
+NODE: 2380 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2747  intro
+
+NODE: 2748  intro
+
+NODE: 449  intro
+
+NODE: 1344  rem -  ['a444', 'a607']
+
+NODE: 435  intro
+
+NODE: 1334  rem -  ['a231', 'a444']
+
+NODE: 414  intro
+
+NODE: 1324  rem -  ['a346', 'a444']
+
+NODE: 391  intro
+
+NODE: 1689  rem -  ['a294', 'a346']
+
+NODE: 947  intro
+
+NODE: 372  join
+as list
+
+----------------
+
+NODE: 1677  rem -  ['a294', 'a518']
+
+NODE: 935  intro
+
+NODE: 2358 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2713  intro
+
+NODE: 390  intro
+
+NODE: 1315  rem -  ['a199']
+
+NODE: 1963  intro
+
+NODE: 371  intro
+
+NODE: 1676  rem -  ['a294', 'a518']
+
+NODE: 934  intro
+
+NODE: 1160  join
+as list
+
+----------------
+
+NODE: 2353 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2704  intro
+
+NODE: 2705  intro
+
+NODE: 370  intro
+
+NODE: 1675  rem -  ['a294', 'a572']
+
+NODE: 933  intro
+
+NODE: 354  join
+as list
+
+----------------
+
+NODE: 1664  rem -  ['a518', 'a572']
+
+NODE: 2119  intro
+
+NODE: 922  intro
+
+NODE: 341  join
+as list
+
+----------------
+
+NODE: 1298  rem -  ['a191', 'a361', 'a572']
+
+NODE: 326  intro
+
+NODE: 1287  rem -  ['a191', 'a42', 'a572']
+
+NODE: 306  intro
+
+NODE: 1283  rem -  ['a191', 'a508', 'a572']
+
+NODE: 288  intro
+
+NODE: 1277  rem -  ['a191', 'a508', 'a525']
+
+NODE: 274  intro
+
+NODE: 1271  rem -  ['a492', 'a508', 'a525']
+
+NODE: 259  intro
+
+NODE: 1267  rem -  ['a475', 'a492', 'a525']
+
+NODE: 244  intro
+
+NODE: 1906  rem -  ['a492', 'a525', 'a695']
+
+NODE: 1598  rem -  ['a492', 'a695']
+
+NODE: 856  intro
+
+NODE: 2316 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2638  intro
+
+NODE: 2639  intro
+
+NODE: 258  intro
+
+NODE: 1266  rem -  ['a46', 'a463']
+
+NODE: 243  intro
+
+NODE: 1597  rem -  ['a46', 'a695']
+
+NODE: 855  intro
+
+NODE: 228  join
+as list
+
+----------------
+
+NODE: 1589  rem -  ['a46', 'a492']
+
+NODE: 847  intro
+
+NODE: 2321 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2648  intro
+
+NODE: 2649  intro
+
+NODE: 273  intro
+
+NODE: 1270  rem -  ['a511', 'a533']
+
+NODE: 257  intro
+
+NODE: 1265  rem -  ['a511', 'a523']
+
+NODE: 242  intro
+
+NODE: 1596  rem -  ['a492', 'a523']
+
+NODE: 854  intro
+
+NODE: 2310 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2625  intro
+
+NODE: 2626  intro
+
+NODE: 241  intro
+
+NODE: 1595  rem -  ['a492', 'a523']
+
+NODE: 853  intro
+
+NODE: 227  join
+as list
+
+----------------
+
+NODE: 1588  rem -  ['a273', 'a492']
+
+NODE: 846  intro
+
+NODE: 209  join
+as list
+
+----------------
+
+NODE: 1574  rem -  ['a273', 'a46']
+
+NODE: 2077  intro
+
+NODE: 832  intro
+
+NODE: 1148  join
+as list
+
+----------------
+
+NODE: 2297 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2603  intro
+
+NODE: 2604  intro
+
+NODE: 208  intro
+
+NODE: 1573  rem -  ['a273', 'a46']
+
+NODE: 2076  intro
+
+NODE: 831  intro
+
+NODE: 193  join
+as list
+
+----------------
+
+NODE: 1902  rem -  ['a26', 'a317', 'a46']
+
+NODE: 1903  rem -  ['a26', 'a46']
+
+NODE: 1564  rem -  ['a26']
+
+NODE: 2070  intro
+
+NODE: 822  intro
+
+NODE: 2291 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2592  intro
+
+NODE: 2593  intro
+
+NODE: 192  intro
+
+NODE: 1563  rem -  ['a26', 'a370']
+
+NODE: 821  intro
+
+NODE: 174  join
+as list
+
+----------------
+
+NODE: 1238  rem -  ['a145', 'a370']
+
+NODE: 161  intro
+
+NODE: 1540  rem -  ['a14', 'a145']
+
+NODE: 2055  intro
+
+NODE: 798  intro
+
+NODE: 2296 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2601  intro
+
+NODE: 2602  intro
+
+NODE: 207  intro
+
+NODE: 1572  rem -  ['a145', 'a99']
+
+NODE: 830  intro
+
+NODE: 2295 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2600  intro
+
+NODE: 206  intro
+
+NODE: 1571  rem -  ['a99']
+
+NODE: 2075  intro
+
+NODE: 829  intro
+
+NODE: 191  join
+as list
+
+----------------
+
+NODE: 1562  rem -  ['a145', 'a471']
+
+NODE: 2069  intro
+
+NODE: 820  intro
+
+NODE: 2290 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2589  intro
+
+NODE: 2590  intro
+
+NODE: 2591  intro
+
+NODE: 190  intro
+
+NODE: 1561  rem -  ['a195', 'a471', 'a702']
+
+NODE: 819  intro
+
+NODE: 1147  join
+as list
+
+----------------
+
+NODE: 2305 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2616  intro
+
+NODE: 226  intro
+
+NODE: 1587  rem -  ['a5']
+
+NODE: 845  intro
+
+NODE: 2357 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2711  intro
+
+NODE: 2712  intro
+
+NODE: 389  intro
+
+NODE: 1314  rem -  ['a278', 'a613']
+
+NODE: 1962  intro
+
+NODE: 369  intro
+
+NODE: 1674  rem -  ['a284', 'a364', 'a613']
+
+NODE: 932  intro
+
+NODE: 2366 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2724  intro
+
+NODE: 2725  intro
+
+NODE: 413  intro
+
+NODE: 1323  rem -  ['a555', 'a743']
+
+NODE: 1967  intro
+
+NODE: 388  intro
+
+NODE: 1313  rem -  ['a284', 'a292', 'a555']
+
+NODE: 368  intro
+
+NODE: 1673  rem -  ['a284', 'a292', 'a364']
+
+NODE: 931  intro
+
+NODE: 1159  join
+as list
+
+----------------
+
+NODE: 2365 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2722  intro
+
+NODE: 2723  intro
+
+NODE: 412  intro
+
+NODE: 1703  rem -  ['a30', 'a683']
+
+NODE: 2136  intro
+
+NODE: 961  intro
+
+NODE: 2364 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2720  intro
+
+NODE: 2721  intro
+
+NODE: 411  intro
+
+NODE: 1702  rem -  ['a30', 'a364']
+
+NODE: 2135  intro
+
+NODE: 960  intro
+
+NODE: 387  join
+as list
+
+----------------
+
+NODE: 1882  rem -  ['a30', 'a364', 'a683']
+
+NODE: 1312  rem -  ['a364', 'a683']
+
+NODE: 367  intro
+
+NODE: 1672  rem -  ['a364', 'a613']
+
+NODE: 2125  intro
+
+NODE: 930  intro
+
+NODE: 353  join
+as list
+
+----------------
+
+NODE: 1303  rem -  ['a284', 'a292', 'a613']
+
+NODE: 340  intro
+
+NODE: 1656  rem -  ['a236', 'a292', 'a613']
+
+NODE: 914  intro
+
+NODE: 2344 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2689  intro
+
+NODE: 2690  intro
+
+NODE: 339  intro
+
+NODE: 1655  rem -  ['a263', 'a292']
+
+NODE: 2114  intro
+
+NODE: 913  intro
+
+NODE: 325  join
+as list
+
+----------------
+
+NODE: 1652  rem -  ['a236', 'a263', 'a613']
+
+NODE: 910  intro
+
+NODE: 2338 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2680  intro
+
+NODE: 2681  intro
+
+NODE:
+[startup+12.7008 s]
+/proc/loadavg: 1.21 1.27 1.31 2/945 334294
+/proc/meminfo: memFree=4793556/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=263564 memory=162104 CPUtime=12.61 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 36828 1701 0 0 1100 35 122 4 20 0 2 0 41555305 269889536 40526 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 65891 40526 7680 688 0 43718 0
+[pid=333994/tid=333995] ppid=333992 vsize=263564 memory=-7019259531255048542 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 269889536 40526 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 12.61 s
+Current children cumulated vsize: 266460 KiB
+Current children cumulated memory: 163768 KiB
+ 324  intro
+
+NODE: 1651  rem -  ['a136', 'a236']
+
+NODE: 2113  intro
+
+NODE: 909  intro
+
+NODE: 305  join
+as list
+
+----------------
+
+NODE: 1636  rem -  ['a136', 'a263', 'a613']
+
+NODE: 894  intro
+
+NODE: 2347 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2694  intro
+
+NODE: 2695  intro
+
+NODE: 352  intro
+
+NODE: 1302  rem -  ['a638', 'a72']
+
+NODE: 338  intro
+
+NODE: 1297  rem -  ['a320', 'a72']
+
+NODE: 1957  intro
+
+NODE: 323  intro
+
+NODE: 1650  rem -  ['a136', 'a320', 'a506']
+
+NODE: 908  intro
+
+NODE: 2337 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2678  intro
+
+NODE: 2679  intro
+
+NODE: 322  intro
+
+NODE: 1649  rem -  ['a136', 'a320']
+
+NODE: 2112  intro
+
+NODE: 907  intro
+
+NODE: 1157  join
+as list
+
+----------------
+
+NODE: 2346 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2693  intro
+
+NODE: 351  intro
+
+NODE: 1301  rem -  ['a719']
+
+NODE: 337  intro
+
+NODE: 1296  rem -  ['a250']
+
+NODE: 1956  intro
+
+NODE: 321  intro
+
+NODE: 1648  rem -  ['a320', 'a613']
+
+NODE: 2111  intro
+
+NODE: 906  intro
+
+NODE: 304  join
+as list
+
+----------------
+
+NODE: 1635  rem -  ['a136', 'a506', 'a613']
+
+NODE: 893  intro
+
+NODE: 287  join
+as list
+
+----------------
+
+NODE: 1909  rem -  ['a263', 'a506', 'a613']
+
+NODE: 1624  rem -  ['a263', 'a506']
+
+NODE: 882  intro
+
+NODE: 2331 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2668  intro
+
+NODE: 2669  intro
+
+NODE: 303  intro
+
+NODE: 1282  rem -  ['a224', 'a625']
+
+NODE: 286  intro
+
+NODE: 1623  rem -  ['a224', 'a263']
+
+NODE: 881  intro
+
+NODE: 272  join
+as list
+
+----------------
+
+NODE: 1616  rem -  ['a224', 'a506']
+
+NODE: 874  intro
+
+NODE: 2330 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2665  intro
+
+NODE: 2666  intro
+
+NODE: 2667  intro
+
+NODE: 302  intro
+
+NODE: 1634  rem -  ['a378', 'a501', 'a568']
+
+NODE: 2101  intro
+
+NODE: 892  intro
+
+NODE: 2329 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2662  intro
+
+NODE: 2663  intro
+
+NODE: 2664  intro
+
+NODE: 301  intro
+
+NODE: 1633  rem -  ['a224', 'a501', 'a568']
+
+NODE: 2100  intro
+
+NODE: 891  intro
+
+NODE: 1155  join
+as list
+
+----------------
+
+NODE: 2328 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2660  intro
+
+NODE: 2661  intro
+
+NODE: 300  intro
+
+NODE: 1632  rem -  ['a469', 'a501']
+
+NODE: 2098  intro
+
+NODE: 2099  intro
+
+NODE: 890  intro
+
+NODE: 1154  join
+as list
+
+----------------
+
+NODE: 2356 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2709  intro
+
+NODE: 2710  intro
+
+NODE: 386  intro
+
+NODE: 1688  rem -  ['a593', 'a611']
+
+NODE: 946  intro
+
+NODE: 2363 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2719  intro
+
+NODE: 410  intro
+
+NODE: 1322  rem -  ['a706']
+
+NODE: 1966  intro
+
+NODE: 385  intro
+
+NODE: 1687  rem -  ['a102', 'a611']
+
+NODE: 945  intro
+
+NODE: 366  join
+as list
+
+----------------
+
+NODE: 1308  rem -  ['a102', 'a593']
+
+NODE: 1960  intro
+
+NODE: 350  intro
+
+NODE: 1663  rem -  ['a102', 'a23', 'a428']
+
+NODE: 921  intro
+
+NODE: 2355 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2708  intro
+
+NODE: 384  intro
+
+NODE: 1311  rem -  ['a730']
+
+NODE: 1961  intro
+
+NODE: 365  intro
+
+NODE: 1307  rem -  ['a469', 'a668']
+
+NODE: 349  intro
+
+NODE: 1662  rem -  ['a428', 'a469']
+
+NODE: 2118  intro
+
+NODE: 920  intro
+
+NODE: 1158  join
+as list
+
+----------------
+
+NODE: 2345 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2691  intro
+
+NODE: 2692  intro
+
+NODE: 348  intro
+
+NODE: 1661  rem -  ['a23', 'a428']
+
+NODE: 2117  intro
+
+NODE: 919  intro
+
+NODE: 336  join
+as list
+
+----------------
+
+NODE: 1295  rem -  ['a102', 'a23', 'a469']
+
+NODE: 320  intro
+
+NODE: 1647  rem -  ['a102', 'a378', 'a469']
+
+NODE: 2110  intro
+
+NODE: 905  intro
+
+NODE: 2352 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2702  intro
+
+NODE: 2703  intro
+
+NODE: 364  intro
+
+NODE: 1671  rem -  ['a224', 'a405']
+
+NODE: 2124  intro
+
+NODE: 929  intro
+
+NODE: 2351 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2700  intro
+
+NODE: 2701  intro
+
+NODE: 363  intro
+
+NODE: 1670  rem -  ['a170', 'a405']
+
+NODE: 2123  intro
+
+NODE: 928  intro
+
+NODE: 347  join
+as list
+
+----------------
+
+NODE: 1660  rem -  ['a170', 'a224', 'a563']
+
+NODE: 2116  intro
+
+NODE: 918  intro
+
+NODE: 2395 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2771  intro
+
+NODE: 2772  intro
+
+NODE: 2773  intro
+
+NODE: 486  intro
+
+NODE: 1735  rem -  ['a28', 'a633', 'a677']
+
+NODE: 2153  intro
+
+NODE: 993  intro
+
+NODE: 2404 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2794  intro
+
+NODE: 2795  intro
+
+NODE: 524  intro
+
+NODE: 1765  rem -  ['a569', 'a738']
+
+NODE: 2169  intro
+
+NODE: 1023  intro
+
+NODE: 2410 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2805  intro
+
+NODE: 2806  intro
+
+NODE: 539  intro
+
+NODE: 1379  rem -  ['a614', 'a634']
+
+NODE: 523  intro
+
+NODE: 1764  rem -  ['a614', 'a738']
+
+NODE: 2168  intro
+
+NODE: 1022  intro
+
+NODE: 511  join
+as list
+
+----------------
+
+NODE: 1370  rem -  ['a569', 'a614', 'a697']
+
+NODE: 502  intro
+
+NODE: 1369  rem -  ['a569', 'a614', 'a739']
+
+NODE: 1978  intro
+
+NODE: 496  intro
+
+NODE: 1741  rem -  ['a28', 'a614', 'a739', 'a86']
+
+NODE: 999  intro
+
+NODE: 2409 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2803  intro
+
+NODE: 2804  intro
+
+NODE: 538  intro
+
+NODE: 1378  rem -  ['a614', 'a678']
+
+NODE: 1982  intro
+
+NODE: 522  intro
+
+NODE: 1763  rem -  ['a34', 'a614', 'a654']
+
+NODE: 1021  intro
+
+NODE: 2413 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2811  intro
+
+NODE: 553  intro
+
+NODE: 1383  rem -  ['a315']
+
+NODE: 1984  intro
+
+NODE: 537  intro
+
+NODE: 1377  rem -  ['a734', 'a79']
+
+NODE: 1981  intro
+
+NODE: 521  intro
+
+NODE: 1762  rem -  ['a34', 'a654', 'a734']
+
+NODE: 1020  intro
+
+NODE: 510  join
+as list
+
+----------------
+
+NODE: 1754  rem -  ['a614', 'a654', 'a734']
+
+NODE: 1012  intro
+
+NODE: 2408 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2802  intro
+
+NODE: 536  intro
+
+NODE: 1376  rem -  ['a554']
+
+NODE: 520  intro
+
+NODE: 1372  rem -  ['a696']
+
+NODE: 1979  intro
+
+NODE: 509  intro
+
+NODE: 1753  rem -  ['a114', 'a654']
+
+NODE: 2162  intro
+
+NODE: 1011  intro
+
+NODE: 1171  join
+as list
+
+----------------
+
+NODE: 2426 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2835  intro
+
+NODE: 2836  intro
+
+NODE: 588  intro
+
+NODE: 1398  rem -  ['a502', 'a627']
+
+NODE: 1989  intro
+
+NODE: 570  intro
+
+NODE: 1793  rem -  ['a502', 'a505', 'a77']
+
+NODE: 2184  intro
+
+NODE: 1051  intro
+
+NODE: 2432 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2848  intro
+
+NODE: 2849  intro
+
+NODE: 2850  intro
+
+NODE: 602  intro
+
+NODE: 1811  rem -  ['a336', 'a704', 'a77']
+
+NODE: 1069  intro
+
+NODE: 2431 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2846  intro
+
+NODE: 2847  intro
+
+NODE: 601  intro
+
+NODE: 1810  rem -  ['a336', 'a704']
+
+NODE: 2195  intro
+
+NODE: 1068  intro
+
+NODE: 587  join
+as list
+
+----------------
+
+NODE: 1397  rem -  ['a49', 'a704', 'a77']
+
+NODE: 569  intro
+
+NODE: 1792  rem -  ['a49', 'a502', 'a77']
+
+NODE: 2183  intro
+
+NODE: 1050  intro
+
+NODE: 552  join
+as list
+
+----------------
+
+NODE: 1783  rem -  ['a49', 'a502', 'a505', 'a721']
+
+NODE: 1041  intro
+
+NODE: 2437 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2858  intro
+
+NODE: 2859  intro
+
+NODE: 2860  intro
+
+NODE: 614  intro
+
+NODE: 1819  rem -  ['a252', 'a391', 'a522']
+
+NODE: 1077  intro
+
+NODE: 2436 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2856  intro
+
+NODE: 2857  intro
+
+NODE: 613  intro
+
+NODE: 1818  rem -  ['a252', 'a522']
+
+NODE: 2198  intro
+
+NODE: 1076  intro
+
+NODE: 600  join
+as list
+
+----------------
+
+NODE: 1809  rem -  ['a114', 'a252', 'a391']
+
+NODE: 1067  intro
+
+NODE: 2435 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2854  intro
+
+NODE: 2855  intro
+
+NODE: 612  intro
+
+NODE: 1817  rem -  ['a324', 'a334']
+
+NODE: 1075  intro
+
+NODE: 2434 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2853  intro
+
+NODE: 611  intro
+
+NODE: 1816  rem -  ['a324']
+
+NODE: 2197  intro
+
+NODE: 1074  intro
+
+NODE: 599  join
+as list
+
+----------------
+
+NODE: 1808  rem -  ['a334', 'a391']
+
+NODE: 2194  intro
+
+NODE: 1066  intro
+
+NODE: 586  join
+as list
+
+----------------
+
+NODE: 1396  rem -  ['a114', 'a252', 'a334']
+
+NODE: 568  intro
+
+NODE: 1791  rem -  ['a114', 'a334', 'a49']
+
+NODE: 1049  intro
+
+NODE: 2418 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2820  intro
+
+NODE: 2821  intro
+
+NODE: 2822  intro
+
+NODE: 567  intro
+
+NODE: 1790  rem -  ['a334', 'a49', 'a721']
+
+NODE: 1048  intro
+
+NODE: 1174  join
+as list
+
+----------------
+
+NODE: 2430 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2844  intro
+
+NODE: 2845  intro
+
+NODE: 598  intro
+
+NODE: 1404  rem -  ['a416', 'a721']
+
+NODE: 585  intro
+
+
+[startup+25.501 s]
+/proc/loadavg: 1.16 1.25 1.30 2/945 334340
+/proc/meminfo: memFree=4714176/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=343128 memory=241236 CPUtime=25.38 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 57868 1701 0 0 2355 57 122 4 20 0 2 0 41555305 351363072 60309 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 85782 60309 7680 688 0 63609 0
+[pid=333994/tid=333995] ppid=333992 vsize=343128 memory=227028 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 351363072 60309 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 25.38 s
+Current children cumulated vsize: 346024 KiB
+Current children cumulated memory: 242900 KiB
+NODE: 1803  rem -  ['a721', 'a736']
+
+NODE: 1061  intro
+
+NODE: 2425 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2834  intro
+
+NODE: 584  intro
+
+NODE: 1802  rem -  ['a736']
+
+NODE: 2190  intro
+
+NODE: 1060  intro
+
+NODE: 566  join
+as list
+
+----------------
+
+NODE: 1789  rem -  ['a334', 'a721']
+
+NODE: 2182  intro
+
+NODE: 1047  intro
+
+NODE: 551  join
+as list
+
+----------------
+
+NODE: 1782  rem -  ['a114', 'a49', 'a721']
+
+NODE: 2180  intro
+
+NODE: 1040  intro
+
+NODE: 535  join
+as list
+
+----------------
+
+NODE: 1773  rem -  ['a114', 'a502', 'a505', 'a721']
+
+NODE: 1031  intro
+
+NODE: 2429 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2842  intro
+
+NODE: 2843  intro
+
+NODE: 597  intro
+
+NODE: 1403  rem -  ['a169', 'a456']
+
+NODE: 583  intro
+
+NODE: 1395  rem -  ['a345', 'a456']
+
+NODE: 565  intro
+
+NODE: 1788  rem -  ['a265', 'a345']
+
+NODE: 1046  intro
+
+NODE: 2417 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2818  intro
+
+NODE: 2819  intro
+
+NODE: 564  intro
+
+NODE: 1787  rem -  ['a265', 'a580']
+
+NODE: 1045  intro
+
+NODE: 550  join
+as list
+
+----------------
+
+NODE: 1781  rem -  ['a345', 'a580']
+
+NODE: 2179  intro
+
+NODE: 1039  intro
+
+NODE: 2424 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2833  intro
+
+NODE: 582  intro
+
+NODE: 1394  rem -  ['a207']
+
+NODE: 563  intro
+
+NODE: 1390  rem -  ['a194']
+
+NODE: 1987  intro
+
+NODE: 549  intro
+
+NODE: 1780  rem -  ['a345', 'a502']
+
+NODE: 2178  intro
+
+NODE: 1038  intro
+
+NODE: 534  join
+as list
+
+----------------
+
+NODE: 1772  rem -  ['a502', 'a505', 'a580']
+
+NODE: 2173  intro
+
+NODE: 1030  intro
+
+NODE: 519  join
+as list
+
+----------------
+
+NODE: 1761  rem -  ['a114', 'a505', 'a580', 'a721']
+
+NODE: 1019  intro
+
+NODE: 2416 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2815  intro
+
+NODE: 2816  intro
+
+NODE: 2817  intro
+
+NODE: 562  intro
+
+NODE: 1786  rem -  ['a505', 'a552', 'a742']
+
+NODE: 1044  intro
+
+NODE: 2442 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2870  intro
+
+NODE: 2871  intro
+
+NODE: 626  intro
+
+NODE: 1829  rem -  ['a174', 'a31']
+
+NODE: 2202  intro
+
+NODE: 1087  intro
+
+NODE: 2441 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2868  intro
+
+NODE: 2869  intro
+
+NODE: 625  intro
+
+NODE: 1828  rem -  ['a31', 'a482']
+
+NODE: 2201  intro
+
+NODE: 1086  intro
+
+NODE: 610  join
+as list
+
+----------------
+
+NODE: 1408  rem -  ['a174', 'a482', 'a720']
+
+NODE: 596  intro
+
+NODE: 1807  rem -  ['a174', 'a217', 'a482']
+
+NODE: 1065  intro
+
+NODE: 2428 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2840  intro
+
+NODE: 2841  intro
+
+NODE: 595  intro
+
+NODE: 1806  rem -  ['a174', 'a217']
+
+NODE: 2193  intro
+
+NODE: 1064  intro
+
+NODE: 581  join
+as list
+
+----------------
+
+NODE: 1393  rem -  ['a217', 'a482', 'a742']
+
+NODE: 561  intro
+
+NODE: 1785  rem -  ['a482', 'a505', 'a742']
+
+NODE: 1043  intro
+
+NODE: 1173  join
+as list
+
+----------------
+
+NODE: 2415 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2813  intro
+
+NODE: 2814  intro
+
+NODE: 560  intro
+
+NODE: 1784  rem -  ['a552', 'a742']
+
+NODE: 2181  intro
+
+NODE: 1042  intro
+
+NODE: 548  join
+as list
+
+----------------
+
+NODE: 1382  rem -  ['a482', 'a505', 'a552']
+
+NODE: 533  intro
+
+NODE: 1375  rem -  ['a505', 'a552', 'a597']
+
+NODE: 518  intro
+
+NODE: 1760  rem -  ['a505', 'a597', 'a721']
+
+NODE: 2167  intro
+
+NODE: 1018  intro
+
+NODE: 1172  join
+as list
+
+----------------
+
+NODE: 2407 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2799  intro
+
+NODE: 2800  intro
+
+NODE: 2801  intro
+
+NODE: 532  intro
+
+NODE: 1771  rem -  ['a155', 'a280', 'a580']
+
+NODE: 2172  intro
+
+NODE: 1029  intro
+
+NODE: 2459 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2904  intro
+
+NODE: 664  intro
+
+NODE: 1425  rem -  ['a313']
+
+NODE: 1996  intro
+
+NODE: 1997  intro
+
+NODE: 656  intro
+
+NODE: 1850  rem -  ['a139', 'a287', 'a727']
+
+NODE: 2217  intro
+
+NODE: 1108  intro
+
+NODE: 2472 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2927  intro
+
+NODE: 2928  intro
+
+NODE: 692  intro
+
+NODE: 1434  rem -  ['a245', 'a257']
+
+NODE: 691  intro
+
+NODE: 1433  rem -  ['a245', 'a664']
+
+NODE: 689  intro
+
+NODE: 1871  rem -  ['a60', 'a664']
+
+NODE: 2227  intro
+
+NODE: 1129  intro
+
+NODE: 2471 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2925  intro
+
+NODE: 2926  intro
+
+NODE: 690  intro
+
+NODE: 1432  rem -  ['a596', 'a60']
+
+NODE: 688  intro
+
+NODE: 1870  rem -  ['a133', 'a60']
+
+NODE: 2226  intro
+
+NODE: 1128  intro
+
+NODE: 1180  join
+as list
+
+----------------
+
+NODE: 2470 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2923  intro
+
+NODE: 2924  intro
+
+NODE: 687  intro
+
+NODE: 1869  rem -  ['a128', 'a133']
+
+NODE: 2225  intro
+
+NODE: 1127  intro
+
+NODE: 686  join
+as list
+
+----------------
+
+NODE: 1889  rem -  ['a133', 'a60', 'a664']
+
+NODE: 1431  rem -  ['a133', 'a664']
+
+NODE: 684  intro
+
+NODE: 1868  rem -  ['a133', 'a670']
+
+NODE: 2224  intro
+
+NODE: 1126  intro
+
+NODE: 2469 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2922  intro
+
+NODE: 685  intro
+
+NODE: 1430  rem -  ['a715']
+
+NODE: 1998  intro
+
+NODE: 683  intro
+
+NODE: 1867  rem -  ['a133', 'a453']
+
+NODE: 2223  intro
+
+NODE: 1125  intro
+
+NODE: 680  join
+as list
+
+----------------
+
+NODE: 1864  rem -  ['a453', 'a670', 'a673']
+
+NODE: 1122  intro
+
+NODE: 2468 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2919  intro
+
+NODE: 2920  intro
+
+NODE: 2921  intro
+
+NODE: 682  intro
+
+NODE: 1866  rem -  ['a385', 'a507', 'a673']
+
+NODE: 1124  intro
+
+NODE: 2467 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2917  intro
+
+NODE: 2918  intro
+
+NODE: 681  intro
+
+NODE: 1865  rem -  ['a507', 'a673']
+
+NODE: 2222  intro
+
+NODE: 1123  intro
+
+NODE: 679  join
+as list
+
+----------------
+
+NODE: 1863  rem -  ['a385', 'a670', 'a673']
+
+NODE: 1121  intro
+
+NODE: 677  join
+as list
+
+----------------
+
+NODE: 1862  rem -  ['a385', 'a453', 'a670']
+
+NODE: 1120  intro
+
+NODE: 2465 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2913  intro
+
+NODE: 2914  intro
+
+NODE: 676  intro
+
+NODE: 1861  rem -  ['a453', 'a490']
+
+NODE: 2221  intro
+
+NODE: 1119  intro
+
+NODE: 674  join
+as list
+
+----------------
+
+NODE: 1860  rem -  ['a385', 'a490', 'a670']
+
+NODE: 1118  intro
+
+NODE: 2466 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2915  intro
+
+NODE: 2916  intro
+
+NODE: 678  intro
+
+NODE: 1429  rem -  ['a372', 'a385']
+
+NODE: 675  intro
+
+NODE: 1428  rem -  ['a385', 'a665']
+
+NODE: 673  intro
+
+NODE: 1859  rem -  ['a385', 'a616']
+
+NODE: 2220  intro
+
+NODE: 1117  intro
+
+NODE: 669  join
+as list
+
+----------------
+
+NODE: 1856  rem -  ['a490', 'a616', 'a670']
+
+NODE: 1114  intro
+
+NODE: 2464 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2911  intro
+
+NODE: 2912  intro
+
+NODE: 672  intro
+
+NODE: 1858  rem -  ['a4', 'a727']
+
+NODE: 1116  intro
+
+NODE: 2463 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2909  intro
+
+NODE: 2910  intro
+
+NODE: 671  intro
+
+NODE: 1857  rem -  ['a4', 'a490']
+
+NODE: 1115  intro
+
+NODE: 668  join
+as list
+
+----------------
+
+NODE: 1855  rem -  ['a490', 'a727']
+
+NODE: 2219  intro
+
+NODE: 1113  intro
+
+NODE: 663  join
+as list
+
+----------------
+
+NODE: 1424  rem -  ['a616', 'a670', 'a727']
+
+NODE: 655  intro
+
+NODE: 1849  rem -  ['a287', 'a670', 'a727']
+
+NODE: 2216  intro
+
+NODE: 1107  intro
+
+NODE: 645  join
+as list
+
+----------------
+
+NODE: 1842  rem -  ['a139', 'a365', 'a670', 'a727']
+
+NODE: 1100  intro
+
+NODE: 2454 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2894  intro
+
+NODE: 2895  intro
+
+NODE: 2896  intro
+
+NODE: 654  intro
+
+NODE: 1848  rem -  ['a365', 'a461', 'a674']
+
+NODE: 1106  intro
+
+NODE: 2458 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2902  intro
+
+NODE: 2903  intro
+
+NODE: 662  intro
+
+NODE: 1852  rem -  ['a433', 'a670']
+
+NODE: 1110  intro
+
+NODE: 2457 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2900  intro
+
+NODE: 2901  intro
+
+NODE: 661  intro
+
+NODE: 1851  rem -  ['a433', 'a670']
+
+NODE: 1109  intro
+
+NODE: 653  join
+as list
+
+----------------
+
+NODE: 1847  rem -  ['a670', 'a674']
+
+NODE: 2215  intro
+
+NODE: 1105  intro
+
+NODE: 1179  join
+as list
+
+----------------
+
+NODE: 2453 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2892  intro
+
+NODE: 2893  intro
+
+NODE: 652  intro
+
+NODE: 1846  rem -  ['a365', 'a674']
+
+NODE: 2214  intro
+
+NODE: 1104  intro
+
+NODE: 644  join
+as list
+
+----------------
+
+NODE: 1841  rem -  ['a365', 'a461', 'a670']
+
+NODE: 2211  intro
+
+NODE: 1099  intro
+
+NODE: 636  join
+as list
+
+----------------
+
+NODE: 1926  rem -  ['a139', 'a461', 'a670', 'a727']
+
+NODE: 1835  rem -  ['a139', 'a461', 'a727']
+
+NODE: 1093  intro
+
+NODE: 2447 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2880  intro
+
+
+[startup+51.1255 s]
+/proc/loadavg: 1.10 1.23 1.29 2/945 334386
+/proc/meminfo: memFree=4561464/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=496528 memory=392124 CPUtime=50.97 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 101330 1701 0 0 4867 104 122 4 20 0 2 0 41555305 508444672 98031 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 124132 98031 7680 688 0 101959 0
+[pid=333994/tid=333995] ppid=333992 vsize=496528 memory=129 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 508444672 98031 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 50.97 s
+Current children cumulated vsize: 499424 KiB
+Current children cumulated memory: 393788 KiB
+NODE: 2881  intro
+
+NODE: 635  intro
+
+NODE: 1834  rem -  ['a139', 'a226']
+
+NODE: 2205  intro
+
+NODE: 1092  intro
+
+NODE: 624  join
+as list
+
+----------------
+
+NODE: 1827  rem -  ['a226', 'a461', 'a727']
+
+NODE: 1085  intro
+
+NODE: 2446 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2878  intro
+
+NODE: 2879  intro
+
+NODE: 634  intro
+
+NODE: 1414  rem -  ['a27', 'a461']
+
+NODE: 1991  intro
+
+NODE: 623  intro
+
+NODE: 1826  rem -  ['a226', 'a335', 'a461']
+
+NODE: 1084  intro
+
+NODE: 609  join
+as list
+
+----------------
+
+NODE: 1815  rem -  ['a226', 'a335', 'a727']
+
+NODE: 1073  intro
+
+NODE: 2440 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2865  intro
+
+NODE: 2866  intro
+
+NODE: 2867  intro
+
+NODE: 622  intro
+
+NODE: 1825  rem -  ['a226', 'a253', 'a335']
+
+NODE: 1083  intro
+
+NODE: 2439 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2863  intro
+
+NODE: 2864  intro
+
+NODE: 621  intro
+
+NODE: 1824  rem -  ['a226', 'a253']
+
+NODE: 2200  intro
+
+NODE: 1082  intro
+
+NODE: 608  join
+as list
+
+----------------
+
+NODE: 1814  rem -  ['a226', 'a335', 'a404']
+
+NODE: 1072  intro
+
+NODE: 594  join
+as list
+
+----------------
+
+NODE: 1402  rem -  ['a335', 'a404', 'a727']
+
+NODE: 580  intro
+
+NODE: 1801  rem -  ['a233', 'a404', 'a727']
+
+NODE: 2189  intro
+
+NODE: 1059  intro
+
+NODE: 2427 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2837  intro
+
+NODE: 2838  intro
+
+NODE: 2839  intro
+
+NODE: 593  intro
+
+NODE: 1805  rem -  ['a155', 'a159', 'a363']
+
+NODE: 2192  intro
+
+NODE: 1063  intro
+
+NODE: 2452 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2891  intro
+
+NODE: 651  intro
+
+NODE: 1419  rem -  ['a582']
+
+NODE: 1994  intro
+
+NODE: 643  intro
+
+NODE: 1840  rem -  ['a13', 'a735']
+
+NODE: 2210  intro
+
+NODE: 1098  intro
+
+NODE: 2450 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2886  intro
+
+NODE: 2887  intro
+
+NODE: 642  intro
+
+NODE: 1839  rem -  ['a727', 'a735']
+
+NODE: 2209  intro
+
+NODE: 1097  intro
+
+NODE: 633  join
+as list
+
+----------------
+
+NODE: 1413  rem -  ['a129', 'a13', 'a727']
+
+NODE: 620  intro
+
+NODE: 1410  rem -  ['a119', 'a129', 'a727']
+
+NODE: 607  intro
+
+NODE: 1407  rem -  ['a119', 'a363', 'a727']
+
+NODE: 592  intro
+
+NODE: 1804  rem -  ['a159', 'a363', 'a727']
+
+NODE: 2191  intro
+
+NODE: 1062  intro
+
+NODE: 579  join
+as list
+
+----------------
+
+NODE: 1800  rem -  ['a155', 'a159', 'a404', 'a727']
+
+NODE: 1058  intro
+
+NODE: 559  join
+as list
+
+----------------
+
+NODE: 1389  rem -  ['a155', 'a159', 'a233', 'a404']
+
+NODE: 547  intro
+
+NODE: 1779  rem -  ['a155', 'a159', 'a233', 'a280']
+
+NODE: 1037  intro
+
+NODE: 2423 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2832  intro
+
+NODE: 578  intro
+
+NODE: 1392  rem -  ['a337']
+
+NODE: 1988  intro
+
+NODE: 558  intro
+
+NODE: 1388  rem -  ['a159', 'a726']
+
+NODE: 546  intro
+
+NODE: 1778  rem -  ['a159', 'a597']
+
+NODE: 2176  intro
+
+NODE: 2177  intro
+
+NODE: 1036  intro
+
+NODE: 531  join
+as list
+
+----------------
+
+NODE: 1770  rem -  ['a155', 'a233', 'a280', 'a597']
+
+NODE: 1028  intro
+
+NODE: 517  join
+as list
+
+----------------
+
+NODE: 1922  rem -  ['a233', 'a280', 'a580', 'a597']
+
+NODE: 1923  rem -  ['a280', 'a580', 'a597']
+
+NODE: 1759  rem -  ['a580', 'a597']
+
+NODE: 2165  intro
+
+NODE: 2166  intro
+
+NODE: 1017  intro
+
+NODE: 508  join
+as list
+
+----------------
+
+NODE: 1919  rem -  ['a114', 'a580', 'a597', 'a721']
+
+NODE: 1920  rem -  ['a114', 'a597', 'a721']
+
+NODE: 1921  rem -  ['a114', 'a721']
+
+NODE: 1752  rem -  ['a114']
+
+NODE: 2160  intro
+
+NODE: 2161  intro
+
+NODE: 1010  intro
+
+NODE: 501  join
+as list
+
+----------------
+
+NODE: 1917  rem -  ['a614', 'a654', 'a734']
+
+NODE: 1746  rem -  ['a614', 'a734']
+
+NODE: 2157  intro
+
+NODE: 1004  intro
+
+NODE: 2400 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2783  intro
+
+NODE: 2784  intro
+
+NODE: 2785  intro
+
+NODE: 500  intro
+
+NODE: 1745  rem -  ['a439', 'a734', 'a86']
+
+NODE: 1003  intro
+
+NODE: 1169  join
+as list
+
+----------------
+
+NODE: 2399 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2780  intro
+
+NODE: 2781  intro
+
+NODE: 2782  intro
+
+NODE: 499  intro
+
+NODE: 1744  rem -  ['a614', 'a734', 'a86']
+
+NODE: 1002  intro
+
+NODE: 495  join
+as list
+
+----------------
+
+NODE: 1740  rem -  ['a439', 'a614', 'a86']
+
+NODE: 2155  intro
+
+NODE: 998  intro
+
+NODE: 492  join
+as list
+
+----------------
+
+NODE: 1368  rem -  ['a28', 'a439', 'a739', 'a86']
+
+NODE: 489  intro
+
+NODE: 1367  rem -  ['a144', 'a28', 'a439', 'a739']
+
+NODE: 485  intro
+
+NODE: 1734  rem -  ['a28', 'a439', 'a677', 'a739']
+
+NODE: 992  intro
+
+NODE: 480  join
+as list
+
+----------------
+
+NODE: 1731  rem -  ['a439', 'a633', 'a677', 'a739']
+
+NODE: 989  intro
+
+NODE: 2392 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2766  intro
+
+NODE: 2767  intro
+
+NODE: 2768  intro
+
+NODE: 479  intro
+
+NODE: 1730  rem -  ['a102', 'a439', 'a677']
+
+NODE: 2152  intro
+
+NODE: 988  intro
+
+NODE: 1168  join
+as list
+
+----------------
+
+NODE: 2391 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2765  intro
+
+NODE: 478  intro
+
+NODE: 1729  rem -  ['a439']
+
+NODE: 2149  intro
+
+NODE: 2150  intro
+
+NODE: 2151  intro
+
+NODE: 987  intro
+
+NODE: 473  join
+as list
+
+----------------
+
+NODE: 1358  rem -  ['a102', 'a633', 'a677', 'a739']
+
+NODE: 467  intro
+
+NODE: 1726  rem -  ['a102', 'a40', 'a633', 'a739']
+
+NODE: 984  intro
+
+NODE: 2388 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2761  intro
+
+NODE: 2762  intro
+
+NODE: 466  intro
+
+NODE: 1725  rem -  ['a403', 'a739']
+
+NODE: 2146  intro
+
+NODE: 2147  intro
+
+NODE: 983  intro
+
+NODE: 459  join
+as list
+
+----------------
+
+NODE: 1352  rem -  ['a102', 'a40', 'a403', 'a633']
+
+NODE: 448  intro
+
+NODE: 1343  rem -  ['a102', 'a170', 'a40', 'a633']
+
+NODE: 434  intro
+
+NODE: 1333  rem -  ['a102', 'a170', 'a258', 'a40']
+
+NODE: 409  intro
+
+NODE: 1321  rem -  ['a102', 'a170', 'a258', 'a645']
+
+NODE: 383  intro
+
+NODE: 1686  rem -  ['a102', 'a170', 'a395', 'a645']
+
+NODE: 944  intro
+
+NODE: 2362 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2718  intro
+
+NODE: 408  intro
+
+NODE: 1320  rem -  ['a137']
+
+NODE: 1964  intro
+
+NODE: 1965  intro
+
+NODE: 382  intro
+
+NODE: 1685  rem -  ['a378', 'a395', 'a645']
+
+NODE: 2131  intro
+
+NODE: 943  intro
+
+NODE: 1163  join
+as list
+
+----------------
+
+NODE: 2354 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2706  intro
+
+NODE: 2707  intro
+
+NODE: 381  intro
+
+NODE: 1684  rem -  ['a102', 'a645']
+
+NODE: 2129  intro
+
+NODE: 2130  intro
+
+NODE: 942  intro
+
+NODE: 362  join
+as list
+
+----------------
+
+NODE: 1306  rem -  ['a102', 'a170', 'a378', 'a395']
+
+NODE: 346  intro
+
+NODE: 1659  rem -  ['a102', 'a170', 'a378', 'a563']
+
+NODE: 917  intro
+
+NODE: 335  join
+as list
+
+----------------
+
+NODE: 1294  rem -  ['a102', 'a224', 'a378', 'a563']
+
+NODE: 319  intro
+
+NODE: 1646  rem -  ['a102', 'a224', 'a378', 'a568']
+
+NODE: 904  intro
+
+NODE: 299  join
+as list
+
+----------------
+
+NODE: 1631  rem -  ['a224', 'a378', 'a469', 'a568']
+
+NODE: 889  intro
+
+NODE: 285  join
+as list
+
+----------------
+
+NODE: 1880  rem -  ['a224', 'a469', 'a501', 'a568']
+
+NODE: 1276  rem -  ['a224', 'a469', 'a501']
+
+NODE: 271  intro
+
+NODE: 1907  rem -  ['a224', 'a501', 'a565']
+
+NODE: 1615  rem -  ['a224', 'a565']
+
+NODE: 873  intro
+
+NODE: 256  join
+as list
+
+----------------
+
+NODE: 1264  rem -  ['a506', 'a565']
+
+NODE: 240  intro
+
+NODE: 1259  rem -  ['a489', 'a506']
+
+NODE: 225  intro
+
+NODE: 1905  rem -  ['a496', 'a506']
+
+NODE: 1586  rem -  ['a496']
+
+NODE: 844  intro
+
+NODE: 205  join
+as list
+
+----------------
+
+NODE: 1877  rem -  ['a5']
+
+NODE: 1248  rem -  []
+
+NODE: 1945  intro
+
+NODE: 1946  intro
+
+NODE: 189  intro
+
+NODE: 1560  rem -  ['a471', 'a702']
+
+NODE: 2068  intro
+
+NODE: 818  intro
+
+NODE: 173  join
+as list
+
+----------------
+
+NODE: 1549  rem -  ['a145', 'a195', 'a702']
+
+NODE: 807  intro
+
+NODE: 2283 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2576  intro
+
+NODE: 2577  intro
+
+NODE: 172  intro
+
+NODE: 1548  rem -  ['a195', 'a702']
+
+NODE: 2061  intro
+
+NODE: 806  intro
+
+NODE: 160  join
+as list
+
+----------------
+
+NODE: 1539  rem -  ['a145', 'a195', 'a690']
+
+NODE: 797  intro
+
+NODE: 147  join
+as list
+
+----------------
+
+NODE: 1898  rem -  ['a14', 'a195', 'a690']
+
+NODE: 1530  rem -  ['a14', 'a690']
+
+NODE: 2051  intro
+
+NODE: 788  intro
+
+NODE: 2280 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2568  intro
+
+NODE: 2569  intro
+
+NODE: 2570  intro
+
+NODE: 159  intro
+
+NODE: 1538  rem -  ['a138', 'a14', 'a302']
+
+NODE: 796  intro
+
+NODE: 2279 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2566  intro
+
+NODE: 2567  intro
+
+NODE: 158  intro
+
+NODE: 1537  rem -  ['a138', 'a14']
+
+NODE: 2054  intro
+
+NODE: 795  intro
+
+NODE: 146  join
+as list
+
+----------------
+
+NODE: 1529  rem -  ['a14', 'a204', 'a302']
+
+NODE: 787  intro
+
+NODE: 134  join
+as list
+
+----------------
+
+NODE: 1523  rem -  ['a204', 'a302', 'a690']
+
+NODE: 781  intro
+
+NODE: 2270 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2549  intro
+
+NODE: 2550  intro
+
+NODE: 133  intro
+
+NODE: 1522  rem -  ['a302', 'a690']
+
+NODE: 2046  intro
+
+NODE: 780  intro
+
+NODE: 120  join
+as list
+
+----------------
+
+NODE: 1512  rem -  ['a204', 'a35', 'a690']
+
+NODE: 770  intro
+
+NODE: 2274 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2556  intro
+
+NODE: 2557  intro
+
+NODE: 145  intro
+
+NODE: 1230  rem -  ['a598', 'a641']
+
+NODE: 132  intro
+
+NODE: 1224  rem -  ['a459', 'a598']
+
+NODE: 1938  intro
+
+NODE: 119  intro
+
+NODE: 1511  rem -  ['a204', 'a35', 'a598']
+
+NODE: 769  intro
+
+NODE: 105  join
+as list
+
+----------------
+
+NODE: 1505  rem -  ['a35', 'a598', 'a690']
+
+NODE: 763  intro
+
+NODE: 2258 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2528  intro
+
+NODE: 2529  intro
+
+NODE: 104  intro
+
+NODE: 1504  rem -  ['a35', 'a598']
+
+NODE: 2034  intro
+
+NODE: 762  intro
+
+NODE: 1140  join
+as list
+
+----------------
+
+NODE: 2265 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2539  intro
+
+NODE: 2540  intro
+
+NODE: 118  intro
+
+NODE: 1221  rem -  ['a2', 'a35']
+
+NODE: 103  intro
+
+NODE: 1503  rem -  ['a35', 'a536']
+
+NODE: 2033  intro
+
+NODE: 761  intro
+
+NODE: 89  join
+as list
+
+----------------
+
+NODE: 1492  rem -  ['a536', 'a598', 'a690']
+
+NODE: 750  intro
+
+NODE: 2289 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2588  intro
+
+NODE: 188  intro
+
+NODE: 1242  rem -  ['a225']
+
+NODE: 1942  intro
+
+NODE: 171  intro
+
+NODE: 1237  rem -  ['a117', 'a211']
+
+NODE: 1941  intro
+
+NODE: 157  intro
+
+NODE: 1234  rem -  ['a117', 'a418', 'a690']
+
+NODE: 144  intro
+
+NODE: 1229  rem -  ['a216', 'a418', 'a690']
+
+NODE: 131  intro
+
+NODE: 1223  rem -  ['a216', 'a296', 'a690']
+
+NODE: 117  intro
+
+NODE: 1220  rem -  ['a296', 'a643', 'a690']
+
+NODE: 1937  intro
+
+NODE: 102  intro
+
+NODE: 1502  rem -  ['a104', 'a536', 'a643', 'a690']
+
+NODE: 760  intro
+
+NODE: 2294 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2598  intro
+
+NODE: 2599  intro
+
+NODE: 204  intro
+
+NODE: 1247  rem -  ['a238', 'a487']
+
+NODE: 187  intro
+
+NODE: 1559  rem -  ['a487', 'a643']
+
+NODE: 2067  intro
+
+NODE: 817  intro
+
+NODE: 2288 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2586  intro
+
+NODE: 2587  intro
+
+NODE: 186  intro
+
+NODE: 1558  rem -  ['a290', 'a487']
+
+NODE: 2066  intro
+
+NODE: 816  intro
+
+NODE: 170  join
+as list
+
+----------------
+
+NODE: 1547  rem -  ['a205', 'a290', 'a643']
+
+NODE: 805  intro
+
+NODE: 2282 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2574  intro
+
+NODE: 2575  intro
+
+NODE: 169  intro
+
+NODE: 1546  rem -  ['a205', 'a413']
+
+NODE: 2060  intro
+
+NODE: 804  intro
+
+NODE: 156  join
+as list
+
+----------------
+
+NODE: 1536  rem -  ['a290', 'a413', 'a643']
+
+NODE: 794  intro
+
+NODE: 2375 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2740  intro
+
+NODE: 2741  intro
+
+NODE: 433  intro
+
+NODE: 1714  rem -  ['a350', 'a694']
+
+NODE: 972  intro
+
+NODE: 2374 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2739  intro
+
+NODE: 432  intro
+
+NODE: 1713  rem -  ['a350']
+
+NODE: 2142  intro
+
+NODE: 971  intro
+
+NODE: 407  join
+as list
+
+----------------
+
+NODE: 1913  rem -  ['a429', 'a694']
+
+NODE: 1701  rem -  ['a694']
+
+NODE: 2134  intro
+
+NODE: 959  intro
+
+NODE: 2379 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2745  intro
+
+NODE: 2746  intro
+
+NODE: 447  intro
+
+NODE: 1342  rem -  ['a564', 'a694']
+
+NODE: 431  intro
+
+NODE: 1712  rem -  ['a440', 'a694']
+
+NODE: 970  intro
+
+NODE: 2385 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2756  intro
+
+NODE: 458  intro
+
+NODE: 1351  rem -  ['a676']
+
+NODE: 446  intro
+
+NODE: 1341  rem -  ['a362']
+
+NODE: 430  intro
+
+NODE: 1711  rem -  ['a440']
+
+NODE: 2141  intro
+
+NODE: 969  intro
+
+NODE: 406  join
+as list
+
+----------------
+
+NODE: 1700  rem -  ['a449', 'a694']
+
+NODE: 958  intro
+
+NODE: 1166  join
+as list
+
+----------------
+
+NODE: 2361 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2716  intro
+
+NODE: 2717  intro
+
+NODE: 405  intro
+
+NODE: 1699  rem -  ['a343', 'a694']
+
+NODE: 957  intro
+
+NODE: 380  join
+as list
+
+----------------
+
+NODE: 1683  rem -  ['a343', 'a449']
+
+NODE: 941  intro
+
+NODE: 2378 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2744  intro
+
+NODE: 445  intro
+
+NODE: 1340  rem -  ['a295']
+
+NODE: 429  intro
+
+NODE: 1332  rem -  ['a642']
+
+NODE: 1972  intro
+
+NODE: 404  intro
+
+NODE: 1698  rem -  ['a343', 'a712']
+
+NODE: 956  intro
+
+NODE: 2377 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2743  intro
+
+NODE: 444  intro
+
+NODE: 1339  rem -  ['a556']
+
+NODE: 428  intro
+
+NODE: 1331  rem -  ['a213']
+
+NODE: 1971  intro
+
+NODE: 403  intro
+
+NODE: 1697  rem -  ['a481', 'a712']
+
+NODE: 955  intro
+
+NODE: 1165  join
+as list
+
+----------------
+
+NODE: 2360 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2715  intro
+
+NODE: 402  intro
+
+NODE: 1696  rem -  ['a712']
+
+NODE: 2133  intro
+
+NODE: 954  intro
+
+NODE: 379  join
+as list
+
+----------------
+
+NODE: 1682  rem -  ['a343', 'a481']
+
+NODE: 940  intro
+
+NODE: 1162  join
+as list
+
+----------------
+
+NODE: 2384 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2754  intro
+
+NODE: 2755  intro
+
+NODE: 457  intro
+
+NODE: 1350  rem -  ['a658', 'a671']
+
+NODE: 443  intro
+
+NODE: 1885  rem -  ['a305', 'a671']
+
+NODE: 1338  rem -  ['a305']
+
+NODE: 427  intro
+
+NODE: 1330  rem -  ['a703']
+
+NODE: 401  intro
+
+NODE: 1319  rem -  ['a149']
+
+NODE: 378  intro
+
+NODE: 1681  rem -  ['a343']
+
+NODE: 2128  intro
+
+NODE: 939  intro
+
+NODE: 1161  join
+as list
+
+----------------
+
+NODE: 2387 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2759  intro
+
+NODE: 2760  intro
+
+NODE: 465  intro
+
+NODE: 1724  rem -  ['a186', 'a214']
+
+NODE: 982  intro
+
+NODE: 2386 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2757  intro
+
+NODE: 2758  intro
+
+NODE: 464  intro
+
+NODE: 1723  rem -  ['a214', 'a297']
+
+NODE: 981  intro
+
+NODE: 456  join
+as list
+
+----------------
+
+NODE: 1349  rem -  ['a186', 'a297']
+
+NODE: 442  intro
+
+NODE: 1718  rem -  ['a171', 'a186']
+
+NODE: 976  intro
+
+NODE: 2396 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2774  intro
+
+NODE: 488  intro
+
+NODE: 1366  rem -  ['a323']
+
+NODE: 484  intro
+
+NODE: 1364  rem -  ['a303']
+
+NODE: 1977  intro
+
+NODE: 477  intro
+
+NODE: 1362  rem -  ['a358', 'a450']
+
+NODE: 472  intro
+
+NODE: 1728  rem -  ['a450', 'a472']
+
+NODE: 986  intro
+
+NODE: 2390 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2764  intro
+
+NODE: 476  intro
+
+NODE: 1361  rem -  ['a254']
+
+NODE: 471  intro
+
+NODE: 1727  rem -  ['a450']
+
+NODE: 2148  intro
+
+NODE: 985  intro
+
+NODE: 463  join
+as list
+
+----------------
+
+NODE: 1722  rem -  ['a186', 'a472']
+
+NODE: 2145  intro
+
+NODE: 980  intro
+
+NODE: 2394 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2770  intro
+
+NODE: 483  intro
+
+NODE: 1363  rem -  ['a150']
+
+NODE: 1976  intro
+
+NODE: 475  intro
+
+NODE: 1360  rem -  ['a420', 'a472']
+
+NODE: 470  intro
+
+NODE: 1357  rem -  ['a182', 'a472']
+
+NODE: 462  intro
+
+NODE: 1721  rem -  ['a472', 'a700']
+
+NODE: 2144  intro
+
+NODE: 979  intro
+
+NODE: 455  join
+as list
+
+----------------
+
+NODE: 1914  rem -  ['a186', 'a535', 'a700']
+
+NODE: 1720  rem -  ['a186', 'a700']
+
+NODE: 978  intro
+
+NODE: 2383 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2752  intro
+
+NODE: 2753  intro
+
+NODE: 454  intro
+
+NODE: 1719  rem -  ['a186', 'a700']
+
+NODE: 977  intro
+
+NODE: 441  join
+as list
+
+----------------
+
+NODE: 1717  rem -  ['a186', 'a432']
+
+NODE: 975  intro
+
+NODE: 426  join
+as list
+
+----------------
+
+NODE: 1710  rem -  ['a171', 'a432']
+
+NODE: 2140  intro
+
+NODE: 968  intro
+
+NODE: 2382 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2750  intro
+
+NODE: 2751  intro
+
+NODE: 453  intro
+
+NODE: 1348  rem -  ['a281', 'a386']
+
+NODE: 440  intro
+
+NODE: 1337  rem -  ['a386', 'a432']
+
+NODE: 425  intro
+
+NODE: 1709  rem -  ['a432', 'a588']
+
+NODE: 2139  intro
+
+NODE: 967  intro
+
+NODE: 400  join
+as list
+
+----------------
+
+NODE: 1912  rem -  ['a171', 'a432', 'a588']
+
+NODE: 1695  rem -  ['a171', 'a588']
+
+NODE: 953  intro
+
+NODE: 2373 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2737  intro
+
+NODE: 2738  intro
+
+NODE: 424  intro
+
+NODE: 1708  rem -  ['a161', 'a449']
+
+NODE: 966  intro
+
+NODE: 2372 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2735  intro
+
+NODE: 2736  intro
+
+NODE: 423  intro
+
+NODE: 1707  rem -  
+[startup+102.301 s]
+/proc/loadavg: 1.13 1.22 1.28 2/945 334455
+/proc/meminfo: memFree=4218996/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=832772 memory=723776 CPUtime=102.06 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 209482 1701 0 0 9875 205 122 4 20 0 2 0 41555305 852758528 180944 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 208193 180944 7680 688 0 186020 0
+[pid=333994/tid=333995] ppid=333992 vsize=832772 memory=1664 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 852758528 180944 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 102.06 s
+Current children cumulated vsize: 835668 KiB
+Current children cumulated memory: 725440 KiB
+['a161', 'a449']
+
+NODE: 965  intro
+
+NODE: 1167  join
+as list
+
+----------------
+
+NODE: 2371 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2733  intro
+
+NODE: 2734  intro
+
+NODE: 422  intro
+
+NODE: 1706  rem -  ['a161', 'a171']
+
+NODE: 964  intro
+
+NODE: 399  join
+as list
+
+----------------
+
+NODE: 1694  rem -  ['a171', 'a449']
+
+NODE: 952  intro
+
+NODE: 1164  join
+as list
+
+----------------
+
+NODE: 2370 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2732  intro
+
+NODE: 421  intro
+
+NODE: 1329  rem -  ['a310']
+
+NODE: 1970  intro
+
+NODE: 398  intro
+
+NODE: 1693  rem -  ['a449', 'a588']
+
+NODE: 951  intro
+
+NODE: 377  join
+as list
+
+----------------
+
+NODE: 1911  rem -  ['a449', 'a588']
+
+NODE: 1680  rem -  ['a449']
+
+NODE: 2127  intro
+
+NODE: 938  intro
+
+NODE: 361  join
+as list
+
+----------------
+
+NODE: 1910  rem -  ['a449', 'a481']
+
+NODE: 1669  rem -  ['a481']
+
+NODE: 2122  intro
+
+NODE: 927  intro
+
+NODE: 2350 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2698  intro
+
+NODE: 2699  intro
+
+NODE: 360  intro
+
+NODE: 1668  rem -  ['a406', 'a481']
+
+NODE: 926  intro
+
+NODE: 345  join
+as list
+
+----------------
+
+NODE: 1300  rem -  ['a151', 'a406']
+
+NODE: 334  intro
+
+NODE: 1654  rem -  ['a151', 'a438']
+
+NODE: 912  intro
+
+NODE: 2343 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2687  intro
+
+NODE: 2688  intro
+
+NODE: 333  intro
+
+NODE: 1653  rem -  ['a151', 'a318']
+
+NODE: 911  intro
+
+NODE: 318  join
+as list
+
+----------------
+
+NODE: 1645  rem -  ['a318', 'a438']
+
+NODE: 2109  intro
+
+NODE: 903  intro
+
+NODE: 2336 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2676  intro
+
+NODE: 2677  intro
+
+NODE: 317  intro
+
+NODE: 1644  rem -  ['a438', 'a710']
+
+NODE: 2108  intro
+
+NODE: 902  intro
+
+NODE: 298  join
+as list
+
+----------------
+
+NODE: 1281  rem -  ['a291', 'a318', 'a710']
+
+NODE: 284  intro
+
+NODE: 1622  rem -  ['a318', 'a686', 'a710']
+
+NODE: 880  intro
+
+NODE: 2324 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2653  intro
+
+NODE: 2654  intro
+
+NODE: 283  intro
+
+NODE: 1621  rem -  ['a686', 'a710']
+
+NODE: 2095  intro
+
+NODE: 879  intro
+
+NODE: 270  join
+as list
+
+----------------
+
+NODE: 1879  rem -  ['a259', 'a686', 'a710']
+
+NODE: 1269  rem -  ['a259', 'a710']
+
+NODE: 255  intro
+
+NODE: 1605  rem -  ['a259', 'a410']
+
+NODE: 2090  intro
+
+NODE: 863  intro
+
+NODE: 2320 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2646  intro
+
+NODE: 2647  intro
+
+NODE: 269  intro
+
+NODE: 1614  rem -  ['a259', 'a353']
+
+NODE: 872  intro
+
+NODE: 2335 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2675  intro
+
+NODE: 316  intro
+
+NODE: 1643  rem -  ['a116']
+
+NODE: 901  intro
+
+NODE: 2334 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2674  intro
+
+NODE: 315  intro
+
+NODE: 1642  rem -  ['a116']
+
+NODE: 900  intro
+
+NODE: 297  join
+as list
+
+----------------
+
+NODE: 1280  rem -  ['a55']
+
+NODE: 282  intro
+
+NODE: 1275  rem -  ['a659']
+
+NODE: 268  intro
+
+NODE: 1613  rem -  ['a353']
+
+NODE: 2093  intro
+
+NODE: 871  intro
+
+NODE: 254  join
+as list
+
+----------------
+
+NODE: 1604  rem -  ['a259', 'a89']
+
+NODE: 2089  intro
+
+NODE: 862  intro
+
+NODE: 1152  join
+as list
+
+----------------
+
+NODE: 2315 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2636  intro
+
+NODE: 2637  intro
+
+NODE: 253  intro
+
+NODE: 1603  rem -  ['a259', 'a745']
+
+NODE: 2088  intro
+
+NODE: 861  intro
+
+NODE: 239  join
+as list
+
+----------------
+
+NODE: 1594  rem -  ['a410', 'a745', 'a89']
+
+NODE: 852  intro
+
+NODE: 2314 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2634  intro
+
+NODE: 2635  intro
+
+NODE: 252  intro
+
+NODE: 1602  rem -  ['a557', 'a748']
+
+NODE: 860  intro
+
+NODE: 2313 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2632  intro
+
+NODE: 2633  intro
+
+NODE: 251  intro
+
+NODE: 1601  rem -  ['a557', 'a748']
+
+NODE: 859  intro
+
+NODE: 238  join
+as list
+
+----------------
+
+NODE: 1593  rem -  ['a410', 'a748']
+
+NODE: 2087  intro
+
+NODE: 851  intro
+
+NODE: 1151  join
+as list
+
+----------------
+
+NODE: 2309 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2623  intro
+
+NODE: 2624  intro
+
+NODE: 237  intro
+
+NODE: 1592  rem -  ['a410', 'a745']
+
+NODE: 2086  intro
+
+NODE: 850  intro
+
+NODE: 224  join
+as list
+
+----------------
+
+NODE: 1585  rem -  ['a745', 'a748', 'a89']
+
+NODE: 843  intro
+
+NODE: 2304 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2614  intro
+
+NODE: 2615  intro
+
+NODE: 223  intro
+
+NODE: 1584  rem -  ['a241', 'a745']
+
+NODE: 2083  intro
+
+NODE: 842  intro
+
+NODE: 203  join
+as list
+
+----------------
+
+NODE: 1246  rem -  ['a241', 'a748', 'a89']
+
+NODE: 185  intro
+
+NODE: 1557  rem -  ['a241', 'a383', 'a748']
+
+NODE: 815  intro
+
+NODE: 2312 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2630  intro
+
+NODE: 2631  intro
+
+NODE: 250  intro
+
+NODE: 1263  rem -  ['a202', 'a308']
+
+NODE: 236  intro
+
+NODE: 1258  rem -  ['a135', 'a202']
+
+NODE: 222  intro
+
+NODE: 1583  rem -  ['a135', 'a61']
+
+NODE: 2082  intro
+
+NODE: 841  intro
+
+NODE: 2308 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2622  intro
+
+NODE: 235  intro
+
+NODE: 1257  rem -  ['a369']
+
+NODE: 1949  intro
+
+NODE: 221  intro
+
+NODE: 1582  rem -  ['a135', 'a383']
+
+NODE: 2081  intro
+
+NODE: 840  intro
+
+NODE: 202  join
+as list
+
+----------------
+
+NODE: 1570  rem -  ['a383', 'a61', 'a701']
+
+NODE: 828  intro
+
+NODE: 2303 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2612  intro
+
+NODE: 2613  intro
+
+NODE: 220  intro
+
+NODE: 1581  rem -  ['a241', 'a640']
+
+NODE: 839  intro
+
+NODE: 2302 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2611  intro
+
+NODE: 219  intro
+
+NODE: 1580  rem -  ['a640']
+
+NODE: 2080  intro
+
+NODE: 838  intro
+
+NODE: 201  join
+as list
+
+----------------
+
+NODE: 1569  rem -  ['a241', 'a701']
+
+NODE: 2074  intro
+
+NODE: 827  intro
+
+NODE: 184  join
+as list
+
+----------------
+
+NODE: 1556  rem -  ['a241', 'a383', 'a61']
+
+NODE: 814  intro
+
+NODE: 168  join
+as list
+
+----------------
+
+NODE: 1876  rem -  ['a383', 'a61', 'a748']
+
+NODE: 1236  rem -  ['a61', 'a748']
+
+NODE: 155  intro
+
+NODE: 1535  rem -  ['a290', 'a61']
+
+NODE: 2053  intro
+
+NODE: 793  intro
+
+NODE: 143  join
+as list
+
+----------------
+
+NODE: 1528  rem -  ['a413', 'a61', 'a643']
+
+NODE: 786  intro
+
+NODE: 2278 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2565  intro
+
+NODE: 154  intro
+
+NODE: 1233  rem -  ['a414']
+
+NODE: 1940  intro
+
+NODE: 142  intro
+
+NODE: 1527  rem -  ['a218', 'a61']
+
+NODE: 2050  intro
+
+NODE: 785  intro
+
+NODE: 130  join
+as list
+
+----------------
+
+NODE: 1521  rem -  ['a218', 'a413', 'a643']
+
+NODE: 2045  intro
+
+NODE: 779  intro
+
+NODE: 2273 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2554  intro
+
+NODE: 2555  intro
+
+NODE: 141  intro
+
+NODE: 1228  rem -  ['a33', 'a413']
+
+NODE: 129  intro
+
+NODE: 1520  rem -  ['a104', 'a413']
+
+NODE: 2043  intro
+
+NODE: 2044  intro
+
+NODE: 778  intro
+
+NODE: 1142  join
+as list
+
+----------------
+
+NODE: 2269 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2547  intro
+
+NODE: 2548  intro
+
+NODE: 128  intro
+
+NODE: 1519  rem -  ['a342', 'a413']
+
+NODE: 2041  intro
+
+NODE: 2042  intro
+
+NODE: 777  intro
+
+NODE: 116  join
+as list
+
+----------------
+
+NODE: 1219  rem -  ['a104', 'a218', 'a342', 'a643']
+
+NODE: 101  intro
+
+NODE: 1501  rem -  ['a104', 'a218', 'a536', 'a643']
+
+NODE: 759  intro
+
+NODE: 1139  join
+as list
+
+----------------
+
+NODE: 2257 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2527  intro
+
+NODE: 100  intro
+
+NODE: 1500  rem -  ['a218']
+
+NODE: 2030  intro
+
+NODE: 2031  intro
+
+NODE: 2032  intro
+
+NODE: 758  intro
+
+NODE: 88  join
+as list
+
+----------------
+
+NODE: 1896  rem -  ['a218', 'a536', 'a643', 'a690']
+
+NODE: 1491  rem -  ['a218', 'a536', 'a690']
+
+NODE: 749  intro
+
+NODE: 79  join
+as list
+
+----------------
+
+NODE: 1891  rem -  ['a536', 'a598', 'a690']
+
+NODE: 1892  rem -  ['a598', 'a690']
+
+NODE: 1893  rem -  ['a690']
+
+NODE: 1485  rem -  []
+
+NODE: 2021  intro
+
+NODE: 2022  intro
+
+NODE: 743  intro
+
+NODE: 2253 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2520  intro
+
+NODE: 2521  intro
+
+NODE: 87  intro
+
+NODE: 1490  rem -  ['a347', 'a519']
+
+NODE: 748  intro
+
+NODE: 2264 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2538  intro
+
+NODE: 115  intro
+
+NODE: 1218  rem -  ['a84']
+
+NODE: 99  intro
+
+NODE: 1213  rem -  ['a175']
+
+NODE: 1936  intro
+
+NODE: 86  intro
+
+NODE: 1489  rem -  ['a347', 'a623']
+
+NODE: 747  intro
+
+NODE: 78  join
+as list
+
+----------------
+
+NODE: 1484  rem -  ['a519', 'a623']
+
+NODE: 742  intro
+
+NODE: 1136  join
+as list
+
+----------------
+
+NODE: 2251 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2518  intro
+
+NODE: 77  intro
+
+NODE: 1483  rem -  ['a519']
+
+NODE: 2020  intro
+
+NODE: 741  intro
+
+NODE: 69  join
+as list
+
+----------------
+
+NODE: 1478  rem -  ['a167', 'a623']
+
+NODE: 736  intro
+
+NODE: 2247 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2510  intro
+
+NODE: 2511  intro
+
+NODE: 68  intro
+
+NODE: 1477  rem -  ['a623', 'a649']
+
+NODE: 735  intro
+
+NODE: 60  join
+as list
+
+----------------
+
+NODE: 1473  rem -  ['a167', 'a649']
+
+NODE: 731  intro
+
+NODE: 54  join
+as list
+
+----------------
+
+NODE: 1198  rem -  ['a282', 'a649']
+
+NODE: 49  intro
+
+NODE: 1466  rem -  ['a282', 'a467']
+
+NODE: 724  intro
+
+NODE: 2243 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2502  intro
+
+NODE: 2503  intro
+
+NODE: 48  intro
+
+NODE: 1465  rem -  ['a276', 'a282']
+
+NODE: 723  intro
+
+NODE: 44  join
+as list
+
+----------------
+
+NODE: 1196  rem -  ['a276', 'a467']
+
+NODE: 1929  intro
+
+NODE: 40  intro
+
+NODE: 1459  rem -  ['a467', 'a495', 'a605']
+
+NODE: 717  intro
+
+NODE: 2235 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2485  intro
+
+NODE: 2486  intro
+
+NODE: 26  intro
+
+NODE: 1188  rem -  ['a340', 'a446']
+
+NODE: 1928  intro
+
+NODE: 22  intro
+
+NODE: 1450  rem -  ['a215', 'a340', 'a737']
+
+NODE: 708  intro
+
+NODE: 2229 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2475  intro
+
+NODE: 2476  intro
+
+NODE: 9  intro
+
+NODE: 1439  rem -  ['a467', 'a608']
+
+NODE: 2001  intro
+
+NODE: 697  intro
+
+NODE: 2228 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2474  intro
+
+NODE: 8  intro
+
+NODE: 1438  rem -  ['a467']
+
+NODE: 1999  intro
+
+NODE: 2000  intro
+
+NODE: 696  intro
+
+NODE: 1130  join
+as list
+
+----------------
+
+NODE: 2236 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2487  intro
+
+NODE: 2488  intro
+
+NODE: 28  intro
+
+NODE: 1190  rem -  ['a388', 'a539']
+
+NODE: 24  intro
+
+NODE: 1186  rem -  ['a539', 'a679']
+
+NODE: 19  intro
+
+NODE: 1446  rem -  ['a635', 'a679']
+
+NODE: 2006  intro
+
+NODE: 704  intro
+
+NODE: 2233 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2482  intro
+
+NODE: 2483  intro
+
+NODE: 18  intro
+
+NODE: 1445  rem -  ['a608', 'a635']
+
+NODE: 2005  intro
+
+NODE: 703  intro
+
+NODE: 13  join
+as list
+
+----------------
+
+NODE: 1442  rem -  ['a600', 'a608', 'a679']
+
+NODE: 700  intro
+
+NODE: 2232 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2480  intro
+
+NODE: 2481  intro
+
+NODE: 17  intro
+
+NODE: 1185  rem -  ['a32', 'a679']
+
+NODE: 1927  intro
+
+NODE: 12  intro
+
+NODE: 1441  rem -  ['a486', 'a600', 'a679']
+
+NODE: 699  intro
+
+NODE: 1131  join
+as list
+
+----------------
+
+NODE: 2230 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2477  intro
+
+NODE: 2478  intro
+
+NODE: 11  intro
+
+NODE: 1440  rem -  ['a486', 'a600']
+
+NODE: 2002  intro
+
+NODE: 698  intro
+
+NODE: 6  join
+as list
+
+----------------
+
+NODE: 1436  rem -  ['a486', 'a608', 'a679']
+
+NODE: 694  intro
+
+NODE: 2231 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2479  intro
+
+NODE: 15  intro
+
+NODE: 1444  rem -  ['a699']
+
+NODE: 2003  intro
+
+NODE: 2004  intro
+
+NODE: 702  intro
+
+NODE: 2293 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2596  intro
+
+NODE: 2597  intro
+
+NODE: 200  intro
+
+NODE: 1245  rem -  ['a109', 'a548']
+
+NODE: 1944  intro
+
+NODE: 183  intro
+
+NODE: 1555  rem -  ['a112', 'a309', 'a548']
+
+NODE: 813  intro
+
+NODE: 2301 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2610  intro
+
+NODE: 218  intro
+
+NODE: 1252  rem -  ['a689']
+
+NODE: 199  intro
+
+NODE: 1244  rem -  ['a289']
+
+NODE: 1943  intro
+
+NODE: 182  intro
+
+NODE: 1554  rem -  ['a112', 'a540']
+
+NODE: 2065  intro
+
+NODE: 812  intro
+
+NODE: 1146  join
+as list
+
+----------------
+
+NODE: 2287 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2584  intro
+
+NODE: 2585  intro
+
+NODE: 181  intro
+
+NODE: 1553  rem -  ['a112', 'a309']
+
+NODE: 2064  intro
+
+NODE: 811  intro
+
+NODE: 167  join
+as list
+
+----------------
+
+NODE: 1545  rem -  ['a309', 'a540', 'a548']
+
+NODE: 803  intro
+
+NODE: 2286 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2582  intro
+
+NODE: 2583  intro
+
+NODE: 180  intro
+
+NODE: 1552  rem -  ['a349', 'a731']
+
+NODE: 2063  intro
+
+NODE: 810  intro
+
+NODE: 2285 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2580  intro
+
+NODE: 2581  intro
+
+NODE: 179  intro
+
+NODE: 1551  rem -  ['a3', 'a731']
+
+NODE: 2062  intro
+
+NODE: 809  intro
+
+NODE: 1145  join
+as list
+
+----------------
+
+NODE: 2369 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2730  intro
+
+NODE: 2731  intro
+
+NODE: 420  intro
+
+NODE: 1328  rem -  ['a15', 'a520']
+
+NODE: 1969  intro
+
+NODE: 397  intro
+
+NODE: 1318  rem -  ['a286', 'a520', 'a687']
+
+NODE: 376  intro
+
+NODE: 1679  rem -  ['a520', 'a577', 'a687']
+
+NODE: 937  intro
+
+NODE: 2389 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2763  intro
+
+NODE: 469  intro
+
+NODE: 1356  rem -  ['a123']
+
+NODE: 461  intro
+
+NODE: 1354  rem -  ['a74']
+
+NODE: 452  intro
+
+NODE: 1347  rem -  ['a639']
+
+NODE: 1975  intro
+
+NODE: 439  intro
+
+NODE: 1716  rem -  ['a156', 'a222']
+
+NODE: 974  intro
+
+NODE: 2376 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2742  intro
+
+NODE: 438  intro
+
+NODE: 1715  rem -  ['a156']
+
+NODE: 2143  intro
+
+NODE: 973  intro
+
+NODE: 419  join
+as list
+
+----------------
+
+NODE: 1327  rem -  ['a222', 'a509']
+
+NODE: 396  intro
+
+NODE: 1692  rem -  ['a222', 'a618']
+
+NODE: 950  intro
+
+NODE: 2359 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2714  intro
+
+NODE: 395  intro
+
+NODE: 1691  rem -  ['a222']
+
+NODE: 2132  intro
+
+NODE: 949  intro
+
+NODE: 375  join
+as list
+
+----------------
+
+NODE: 1678  rem -  ['a618', 'a687']
+
+NODE: 2126  intro
+
+NODE: 936  intro
+
+NODE: 359  join
+as list
+
+----------------
+
+NODE: 1667  rem -  ['a520', 'a577', 'a618']
+
+NODE: 925  intro
+
+NODE: 2349 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2697  intro
+
+NODE: 358  intro
+
+NODE: 1666  rem -  ['a577']
+
+NODE: 2120  intro
+
+NODE: 2121  intro
+
+NODE: 924  intro
+
+NODE: 344  join
+as list
+
+----------------
+
+NODE: 1658  rem -  ['a430', 'a520', 'a618']
+
+NODE: 916  intro
+
+NODE: 2348 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2696  intro
+
+NODE: 357  intro
+
+NODE: 1305  rem -  ['a423']
+
+NODE: 1959  intro
+
+NODE: 343  intro
+
+NODE: 1657  rem -  ['a618', 'a709']
+
+NODE: 2115  intro
+
+NODE: 915  intro
+
+NODE: 332  join
+as list
+
+----------------
+
+NODE: 1293  rem -  ['a430', 'a520', 'a709']
+
+NODE: 314  intro
+
+NODE: 1286  rem -  ['a300', 'a430', 'a520']
+
+NODE: 296  intro
+
+NODE: 1630  rem -  ['a300', 'a520', 'a609']
+
+NODE: 888  intro
+
+NODE: 2342 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2686  intro
+
+NODE: 331  intro
+
+NODE: 1292  rem -  ['a648']
+
+NODE: 1954  intro
+
+NODE: 1955  intro
+
+NODE: 313  intro
+
+NODE: 1641  rem -  ['a571', 'a609', 'a646']
+
+NODE: 899  intro
+
+NODE: 2333 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2672  intro
+
+NODE: 2673  intro
+
+NODE: 312  intro
+
+NODE: 1640  rem -  ['a571', 'a646']
+
+NODE: 2107  intro
+
+NODE: 898  intro
+
+NODE: 295  join
+as list
+
+----------------
+
+NODE: 1629  rem -  ['a300', 'a571', 'a609']
+
+NODE: 887  intro
+
+NODE: 281  join
+as list
+
+----------------
+
+NODE: 1908  rem -  ['a520', 'a571', 'a609']
+
+NODE: 1620  rem -  ['a520', 'a571']
+
+NODE: 878  intro
+
+NODE: 2341 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2685  intro
+
+NODE: 330  intro
+
+NODE: 1291  rem -  ['a274']
+
+NODE: 311  intro
+
+NODE: 1285  rem -  ['a441']
+
+NODE: 1953  intro
+
+NODE: 294  intro
+
+NODE: 1279  rem -  ['a520', 'a601']
+
+NODE: 280  intro
+
+NODE: 1619  rem -  ['a520', 'a87']
+
+NODE: 877  intro
+
+NODE: 267  join
+as list
+
+----------------
+
+NODE: 1612  rem -  ['a571', 'a87']
+
+NODE: 2092  intro
+
+NODE: 870  intro
+
+NODE: 2319 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2643  intro
+
+NODE: 2644  intro
+
+NODE: 2645  intro
+
+NODE: 266  intro
+
+NODE: 1611  rem -  ['a457', 'a87', 'a95']
+
+NODE: 869  intro
+
+NODE: 1153  join
+as list
+
+----------------
+
+NODE: 2318 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2641  intro
+
+NODE: 2642  intro
+
+NODE: 265  intro
+
+NODE: 1610  rem -  ['a87', 'a95']
+
+NODE: 2091  intro
+
+NODE: 868  intro
+
+NODE: 249  join
+as list
+
+----------------
+
+NODE: 1262  rem -  ['a457', 'a571', 'a95']
+
+NODE: 234  intro
+
+NODE: 1256  rem -  ['a373', 'a571', 'a95']
+
+NODE: 217  intro
+
+NODE: 1878  rem -  ['a349', 'a571', 'a95']
+
+NODE: 1251  rem -  ['a349', 'a95']
+
+NODE: 198  intro
+
+NODE: 1568  rem -  ['a349', 'a656']
+
+NODE: 2073  intro
+
+NODE: 826  intro
+
+NODE: 2332 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2670  intro
+
+NODE: 2671  intro
+
+NODE: 310  intro
+
+NODE: 1639  rem -  ['a546', 'a91']
+
+NODE: 2106  intro
+
+NODE: 897  intro
+
+NODE: 2340 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2683  intro
+
+NODE: 2684  intro
+
+NODE: 329  intro
+
+NODE: 1290  rem -  ['a126', 'a716']
+
+NODE: 309  intro
+
+NODE: 1638  rem -  ['a716', 'a91']
+
+NODE: 2105  intro
+
+NODE: 896  intro
+
+NODE: 1156  join
+as list
+
+----------------
+
+NODE: 2393 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2769  intro
+
+NODE: 482  intro
+
+NODE: 1733  rem -  ['a581']
+
+NODE: 991  intro
+
+NODE: 2397 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2775  intro
+
+NODE: 2776  intro
+
+NODE: 2777  intro
+
+NODE: 491  intro
+
+NODE: 1737  rem -  ['a105', 'a152', 'a189']
+
+NODE: 995  intro
+
+NODE: 2398 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2778  intro
+
+NODE: 2779  intro
+
+NODE: 494  intro
+
+NODE: 1739  rem -  ['a402', 'a53']
+
+NODE: 2154  intro
+
+NODE: 997  intro
+
+NODE: 2412 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2809  intro
+
+NODE: 2810  intro
+
+NODE: 545  intro
+
+NODE: 1381  rem -  ['a176', 'a256']
+
+NODE: 1983  intro
+
+NODE: 530  intro
+
+NODE: 1769  rem -  ['a148', 'a256', 'a629']
+
+NODE: 1027  intro
+
+NODE: 2422 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2829  intro
+
+NODE: 2830  intro
+
+NODE: 2831  intro
+
+NODE: 577  intro
+
+NODE: 1799  rem -  ['a153', 'a329', 'a51']
+
+NODE: 1057  intro
+
+NODE: 2421 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2826  intro
+
+NODE: 2827  intro
+
+NODE: 2828  intro
+
+NODE: 576  intro
+
+NODE: 1798  rem -  ['a201', 'a329', 'a51']
+
+NODE: 1056  intro
+
+NODE: 1176  join
+as list
+
+----------------
+
+NODE: 2461 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2907  intro
+
+NODE: 667  intro
+
+NODE: 1426  rem -  ['a512']
+
+NODE: 660  intro
+
+NODE: 1423  rem -  ['a338']
+
+NODE: 1995  intro
+
+NODE: 650  intro
+
+NODE: 1418  rem -  ['a125', 'a62']
+
+NODE: 1993  intro
+
+NODE: 641  intro
+
+NODE: 1416  rem -  ['a153', 'a36', 'a62']
+
+NODE: 632  intro
+
+NODE: 1412  rem -  ['a153', 'a36', 'a92']
+
+NODE: 619  intro
+
+NODE: 1823  rem -  ['a153', 'a179', 'a92']
+
+NODE: 1081  intro
+
+NODE: 2451 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2888  intro
+
+NODE: 2889  intro
+
+NODE: 2890  intro
+
+NODE: 649  intro
+
+NODE: 1845  rem -  ['a544', 'a691', 'a92']
+
+NODE: 1103  intro
+
+NODE: 2456 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2898  intro
+
+NODE: 2899  intro
+
+NODE: 659  intro
+
+NODE: 1422  rem -  ['a371', 'a59']
+
+NODE: 648  intro
+
+NODE: 1844  rem -  ['a371', 'a691']
+
+NODE: 2213  intro
+
+NODE: 1102  intro
+
+NODE: 1178  join
+as list
+
+----------------
+
+NODE: 2460 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2905  intro
+
+NODE: 2906  intro
+
+NODE: 666  intro
+
+NODE: 1854  rem -  ['a316', 'a691']
+
+NODE: 1112  intro
+
+NODE: 2462 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2908  intro
+
+NODE: 670  intro
+
+NODE: 1427  rem -  ['a567']
+
+NODE: 665  intro
+
+NODE: 1853  rem -  ['a316']
+
+NODE: 2218  intro
+
+NODE: 1111  intro
+
+NODE: 658  join
+as list
+
+----------------
+
+NODE: 1421  rem -  ['a54', 'a691']
+
+NODE: 647  intro
+
+NODE: 1843  rem -  ['a691', 'a92']
+
+NODE: 2212  intro
+
+NODE: 1101  intro
+
+NODE: 640  join
+as list
+
+----------------
+
+NODE: 1415  rem -  ['a371', 'a544', 'a92']
+
+NODE: 631  intro
+
+NODE: 1833  rem -  ['a179', 'a371', 'a92']
+
+NODE: 1091  intro
+
+NODE: 2445 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2876  intro
+
+NODE: 2877  intro
+
+NODE: 630  intro
+
+NODE: 1832  rem -  ['a371', 'a56']
+
+NODE: 2204  intro
+
+NODE: 1090  intro
+
+NODE: 618  join
+as list
+
+----------------
+
+NODE: 1822  rem -  ['a179', 'a56', 'a92']
+
+NODE: 1080  intro
+
+NODE: 606  join
+as list
+
+----------------
+
+NODE: 1406  rem -  ['a153', 'a179', 'a56']
+
+NODE: 591  intro
+
+NODE: 1401  rem -  ['a153', 'a51', 'a56']
+
+NODE: 575  intro
+
+NODE: 1797  rem -  ['a153', 'a201', 'a51']
+
+NODE: 1055  intro
+
+NODE: 557  join
+as list
+
+----------------
+
+NODE: 1387  rem -  ['a153', 'a201', 'a329']
+
+NODE: 544  intro
+
+NODE: 1924  rem -  ['a201', 'a329', 'a629']
+
+NODE: 1777  rem -  ['a201', 'a629']
+
+NODE: 1035  intro
+
+NODE: 2420 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2825  intro
+
+NODE: 574  intro
+
+NODE: 1391  rem -  ['a448']
+
+NODE: 556  intro
+
+NODE: 1386  rem -  ['a421']
+
+NODE: 1986  intro
+
+NODE: 543  intro
+
+NODE: 1776  rem -  ['a201', 'a516']
+
+NODE: 1034  intro
+
+NODE: 529  join
+as list
+
+----------------
+
+NODE: 1768  rem -  ['a516', 'a629']
+
+NODE: 2171  intro
+
+NODE: 1026  intro
+
+NODE: 516  join
+as list
+
+----------------
+
+NODE: 1888  rem -  ['a256', 'a516', 'a629']
+
+NODE: 1371  rem -  ['a256', 'a516']
+
+NODE: 507  intro
+
+NODE: 1751  rem -  ['a189', 'a256']
+
+NODE: 2159  intro
+
+NODE: 1009  intro
+
+NODE: 2406 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2797  intro
+
+NODE: 2798  intro
+
+NODE: 528  intro
+
+NODE: 1767  rem -  ['a105', 'a198']
+
+NODE: 2170  intro
+
+NODE: 1025  intro
+
+NODE: 2414 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2812  intro
+
+NODE: 555  intro
+
+NODE: 1385  rem -  ['a165']
+
+NODE: 1985  intro
+
+NODE: 542  intro
+
+NODE: 1775  rem -  ['a180', 'a235']
+
+NODE: 2175  intro
+
+NODE: 1033  intro
+
+NODE: 2411 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2807  intro
+
+NODE: 2808  intro
+
+NODE: 541  intro
+
+NODE: 1774  rem -  ['a111', 'a180']
+
+NODE: 2174  intro
+
+NODE: 1032  intro
+
+NODE: 527  join
+as list
+
+----------------
+
+NODE: 1766  rem -  ['a111', 'a198', 'a235']
+
+NODE: 1024  intro
+
+NODE: 515  join
+as list
+
+----------------
+
+NODE: 1758  rem -  ['a105', 'a111', 'a235']
+
+NODE: 1016  intro
+
+NODE: 2405 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2796  intro
+
+NODE: 526  intro
+
+NODE: 1374  rem -  ['a7']
+
+NODE: 1980  intro
+
+NODE: 514  intro
+
+NODE: 1757  rem -  ['a111', 'a256']
+
+NODE: 2164  intro
+
+NODE: 1015  intro
+
+NODE: 506  join
+as list
+
+----------------
+
+NODE: 1750  rem -  ['a105', 'a235', 'a256']
+
+NODE: 1008  intro
+
+NODE: 498  join
+as list
+
+----------------
+
+NODE: 1743  rem -  ['a105', 'a189', 'a235']
+
+NODE: 1001  intro
+
+NODE: 2402 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2788  intro
+
+NODE: 2789  intro
+
+NODE: 2790  intro
+
+NODE: 505  intro
+
+NODE: 1749  rem -  ['a220', 'a53', 'a630']
+
+NODE: 1007  intro
+
+NODE: 2401 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2786  intro
+
+NODE: 2787  intro
+
+NODE: 504  intro
+
+NODE: 1748  rem -  ['a53', 'a630']
+
+NODE: 2158  intro
+
+NODE: 1006  intro
+
+NODE: 1170  join
+as list
+
+----------------
+
+NODE: 2403 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2791  intro
+
+NODE: 2792  intro
+
+NODE: 2793  intro
+
+NODE: 513  intro
+
+NODE: 1756  rem -  ['a235', 'a322', 'a630']
+
+NODE: 2163  intro
+
+NODE: 1014  intro
+
+NODE: 2449 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2883  intro
+
+NODE: 2884  intro
+
+NODE: 2885  intro
+
+NODE: 639  intro
+
+NODE: 1838  rem -  ['a120', 'a29', 'a419']
+
+NODE: 1096  intro
+
+NODE: 2455 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2897  intro
+
+NODE: 657  intro
+
+NODE: 1420  rem -  ['a366']
+
+NODE: 646  intro
+
+NODE: 1417  rem -  ['a107']
+
+NODE: 1992  intro
+
+NODE: 638  intro
+
+NODE: 1837  rem -  ['a120', 'a419']
+
+NODE: 2208  intro
+
+NODE: 1095  intro
+
+NODE: 1177  join
+as list
+
+----------------
+
+NODE: 2448 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2882  intro
+
+NODE: 637  intro
+
+NODE: 1836  rem -  ['a120']
+
+NODE: 2206  intro
+
+NODE: 2207  intro
+
+NODE: 1094  intro
+
+NODE: 629  join
+as list
+
+----------------
+
+NODE: 1831  rem -  ['a130', 'a29', 'a419']
+
+NODE: 1089  intro
+
+NODE: 2444 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2874  intro
+
+NODE: 2875  intro
+
+NODE: 628  intro
+
+NODE: 1830  rem -  ['a377', 'a419']
+
+NODE: 2203  intro
+
+NODE: 1088  intro
+
+NODE: 617  join
+as list
+
+----------------
+
+NODE: 1409  rem -  ['a130', 'a29', 'a377']
+
+NODE: 605  intro
+
+NODE: 1813  rem -  ['a130', 'a377', 'a434']
+
+NODE: 1071  intro
+
+NODE: 2443 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2872  intro
+
+NODE: 2873  intro
+
+NODE: 627  intro
+
+NODE: 1411  rem -  ['a121', 'a47']
+
+NODE: 616  intro
+
+NODE: 1925  rem -  ['a327', 'a47']
+
+NODE: 1821  rem -  ['a47']
+
+NODE: 2199  intro
+
+NODE: 1079  intro
+
+NODE: 2438 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2861  intro
+
+NODE: 2862  intro
+
+NODE: 615  intro
+
+NODE: 1820  rem -  ['a130', 'a47']
+
+NODE: 1078  intro
+
+NODE: 604  join
+as list
+
+----------------
+
+NODE: 1812  rem -  ['a130', 'a619']
+
+NODE: 2196  intro
+
+NODE: 1070  intro
+
+NODE: 590  join
+as list
+
+----------------
+
+NODE: 1400  rem -  ['a377', 'a434', 'a619']
+
+NODE: 573  intro
+
+NODE: 1796  rem -  ['a434', 'a619', 'a717']
+
+NODE: 2188  intro
+
+NODE: 1054  intro
+
+NODE: 2433 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2851  intro
+
+NODE: 2852  intro
+
+NODE: 603  intro
+
+NODE: 1405  rem -  ['a462', 'a619']
+
+NODE: 589  intro
+
+NODE: 1399  rem -  ['a466', 'a619']
+
+NODE: 1990  intro
+
+NODE: 572  intro
+
+NODE: 1795  rem -  ['a172', 'a220', 'a619']
+
+NODE: 2187  intro
+
+NODE: 1053  intro
+
+NODE: 1175  join
+as list
+
+----------------
+
+NODE: 2419 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2823  intro
+
+NODE: 2824  intro
+
+NODE: 571  intro
+
+NODE: 1794  rem -  ['a172', 'a619']
+
+NODE: 2185  intro
+
+NODE: 2186  intro
+
+NODE: 1052  intro
+
+NODE: 554  join
+as list
+
+----------------
+
+NODE: 1384  rem -  ['a172', 'a220', 'a434', 'a717']
+
+NODE: 540  intro
+
+NODE: 1380  rem -  ['a172', 'a220', 'a322', 'a717']
+
+NODE: 525  intro
+
+NODE: 1373  rem -  ['a220', 'a322', 'a375', 'a717']
+
+NODE: 512  intro
+
+NODE: 1755  rem -  ['a220', 'a235', 'a322', 'a375']
+
+NODE: 1013  intro
+
+NODE: 503  join
+as list
+
+----------------
+
+NODE: 1918  rem -  ['a220', 'a235', 'a375', 'a630']
+
+NODE: 1747  rem -  ['a220', 'a235', 'a630']
+
+NODE: 1005  intro
+
+NODE: 497  join
+as list
+
+----------------
+
+NODE: 1916  rem -  ['a235', 'a53', 'a630']
+
+NODE: 1742  rem -  ['a235', 'a53']
+
+NODE: 2156  intro
+
+NODE: 1000  intro
+
+NODE: 493  join
+as list
+
+----------------
+
+NODE: 1738  rem -  ['a105', 'a189', 'a53']
+
+NODE: 996  intro
+
+NODE: 490  join
+as list
+
+----------------
+
+NODE: 1736  rem -  ['a105', 'a189', 'a402']
+
+NODE: 994  intro
+
+NODE: 487  join
+as list
+
+----------------
+
+NODE: 1887  rem -  ['a152', 'a189', 'a402']
+
+NODE: 1365  rem -  ['a152', 'a189']
+
+NODE: 481  intro
+
+NODE: 1915  rem -  ['a189', 'a6']
+
+NODE: 1732  rem -  ['a6']
+
+NODE: 990  intro
+
+NODE: 474  join
+as list
+
+----------------
+
+NODE: 1886  rem -  ['a6']
+
+NODE: 1359  rem -  []
+
+NODE: 468  intro
+
+NODE: 1355  rem -  []
+
+NODE: 460  intro
+
+NODE: 1353  rem -  []
+
+NODE: 451  intro
+
+NODE: 1346  rem -  []
+
+NODE: 1974  intro
+
+NODE: 437  intro
+
+NODE: 1884  rem -  ['a96']
+
+NODE: 1336  rem -  []
+
+NODE: 418  intro
+
+NODE: 1326  rem -  []
+
+NODE: 1968  intro
+
+NODE: 394  intro
+
+NODE: 1883  rem -  ['a57']
+
+NODE: 1317  rem -  []
+
+NODE: 374  intro
+
+NODE: 1310  rem -  []
+
+NODE: 356  intro
+
+NODE: 1304  rem -  []
+
+NODE: 342  intro
+
+NODE: 1299  rem -  []
+
+NODE: 1958  intro
+
+NODE: 328  intro
+
+NODE: 1881  rem -  ['a480']
+
+NODE: 1289  rem -  []
+
+NODE: 308  intro
+
+NODE: 1637  rem -  []
+
+NODE: 2102  intro
+
+NODE: 2103  intro
+
+NODE: 2104  intro
+
+NODE: 895  intro
+
+NODE: 293  join
+as list
+
+----------------
+
+NODE: 1628  rem -  ['a477', 'a546', 'a716']
+
+NODE: 886  intro
+
+NODE: 2327 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2658  intro
+
+NODE: 2659  intro
+
+NODE: 292  intro
+
+NODE: 1627  rem -  ['a477', 'a741']
+
+NODE: 2097  intro
+
+NODE: 885  intro
+
+NODE: 279  join
+as list
+
+----------------
+
+NODE: 1618  rem -  ['a546', 'a716', 'a741']
+
+NODE: 876  intro
+
+NODE: 2323 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2651  intro
+
+NODE: 2652  intro
+
+NODE: 278  intro
+
+NODE: 1617  rem -  ['a209', 'a546']
+
+NODE: 2094  intro
+
+NODE: 875  intro
+
+NODE: 264  join
+as list
+
+----------------
+
+NODE: 1609  rem -  ['a209', 'a716', 'a741']
+
+NODE: 867  intro
+
+NODE: 2326 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2657  intro
+
+NODE: 291  intro
+
+NODE: 1278  rem -  ['a221']
+
+NODE: 1952  intro
+
+NODE: 277  intro
+
+NODE: 1274  rem -  ['a209', 'a455']
+
+NODE: 1951  intro
+
+NODE: 263  intro
+
+NODE: 1608  rem -  ['a209', 'a3', 'a741']
+
+NODE: 866  intro
+
+NODE: 248  join
+as list
+
+----------------
+
+NODE: 1600  rem -  ['a3', 'a716', 'a741']
+
+NODE: 858  intro
+
+NODE: 2311 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2627  intro
+
+NODE: 2628  intro
+
+NODE: 2629  intro
+
+NODE: 247  intro
+
+NODE: 1599  rem -  ['a3', 'a708', 'a741']
+
+NODE: 857  intro
+
+NODE: 233  join
+as list
+
+----------------
+
+NODE: 1591  rem -  ['a3', 'a708', 'a716']
+
+NODE: 2085  intro
+
+NODE: 849  intro
+
+NODE: 2307 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2619  intro
+
+NODE: 2620  intro
+
+NODE: 2621  intro
+
+NODE: 232  intro
+
+NODE: 1590  rem -  ['a354', 'a708', 'a716']
+
+NODE: 2084  intro
+
+NODE: 848  intro
+
+NODE: 216  join
+as list
+
+----------------
+
+NODE: 1250  rem -  ['a3', 'a354', 'a656', 'a708']
+
+NODE: 197  intro
+
+NODE: 1904  rem -  ['a3', 'a41', 'a656', 'a708']
+
+NODE: 1567  rem -  ['a3', 'a41', 'a656']
+
+NODE: 825  intro
+
+NODE: 178  join
+as list
+
+----------------
+
+NODE: 1550  rem -  ['a3', 'a349', 'a41']
+
+NODE: 808  intro
+
+NODE: 166  join
+as list
+
+----------------
+
+NODE: 1899  rem -  ['a349', 'a41', 'a731']
+
+NODE: 1900  rem -  ['a41', 'a731']
+
+NODE: 1901  rem -  ['a731']
+
+NODE: 1544  rem -  []
+
+NODE: 2057  intro
+
+NODE: 2058  intro
+
+NODE: 2059  intro
+
+NODE: 802  intro
+
+NODE: 153  join
+as list
+
+----------------
+
+NODE: 1232  rem -  ['a309', 'a540', 'a644']
+
+NODE: 140  intro
+
+NODE: 1526  rem -  ['a309', 'a422', 'a644']
+
+NODE: 784  intro
+
+NODE: 2284 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2578  intro
+
+NODE: 2579  intro
+
+NODE: 177  intro
+
+NODE: 1241  rem -  ['a387', 'a83']
+
+NODE: 165  intro
+
+NODE: 1235  rem -  ['a270', 'a387']
+
+NODE: 152  intro
+
+NODE: 1534  rem -  ['a24', 'a387']
+
+NODE: 792  intro
+
+NODE: 2277 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2563  intro
+
+NODE: 2564  intro
+
+NODE: 151  intro
+
+NODE: 1533  rem -  ['a24', 'a644']
+
+NODE: 791  intro
+
+NODE: 139  join
+as list
+
+----------------
+
+NODE: 1525  rem -  ['a387', 'a644']
+
+NODE: 2049  intro
+
+NODE: 783  intro
+
+NODE: 1143  join
+as list
+
+----------------
+
+NODE: 2272 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2553  intro
+
+NODE: 138  intro
+
+NODE: 1524  rem -  ['a644']
+
+NODE: 2047  intro
+
+NODE: 2048  intro
+
+NODE: 782  intro
+
+NODE: 127  join
+as list
+
+----------------
+
+NODE: 1518  rem -  ['a309', 'a387', 'a422']
+
+NODE: 776  intro
+
+NODE: 2268 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2545  intro
+
+NODE: 2546  intro
+
+NODE: 126  intro
+
+NODE: 1517  rem -  ['a162', 'a422']
+
+NODE: 2040  intro
+
+NODE: 775  intro
+
+NODE: 114  join
+as list
+
+----------------
+
+NODE: 1510  rem -  ['a162', 'a309', 'a387']
+
+NODE: 768  intro
+
+NODE: 2271 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2551  intro
+
+NODE: 2552  intro
+
+NODE: 137  intro
+
+NODE: 1227  rem -  ['a162', 'a192']
+
+NODE: 1939  intro
+
+NODE: 125  intro
+
+NODE: 1516  rem -  ['a162', 'a387', 'a592']
+
+NODE: 774  intro
+
+NODE: 2267 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2543  intro
+
+NODE: 2544  intro
+
+NODE: 124  intro
+
+NODE: 1515  rem -  ['a387', 'a592']
+
+NODE: 2039  intro
+
+NODE: 773  intro
+
+NODE: 113  join
+as list
+
+----------------
+
+NODE: 1509  rem -  ['a162', 'a387', 'a394']
+
+NODE: 767  intro
+
+NODE: 1141  join
+as list
+
+----------------
+
+NODE: 2263 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2536  intro
+
+NODE: 2537  intro
+
+NODE: 112  intro
+
+NODE: 1508  rem -  ['a162', 'a394']
+
+NODE: 2038  intro
+
+NODE: 766  intro
+
+NODE: 98  join
+as list
+
+----------------
+
+NODE: 1897  rem -  ['a309', 'a387', 'a394']
+
+NODE: 1499  rem -  ['a309', 'a394']
+
+NODE: 757  intro
+
+NODE: 2256 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2525  intro
+
+NODE: 2526  intro
+
+NODE: 97  intro
+
+NODE: 1498  rem -  ['a183', 'a309']
+
+NODE: 756  intro
+
+NODE: 85  join
+as list
+
+----------------
+
+NODE: 1488  rem -  ['a183', 'a394']
+
+NODE: 2025  intro
+
+NODE: 746  intro
+
+NODE: 2255 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2523  intro
+
+NODE: 2524  intro
+
+NODE: 96  intro
+
+NODE: 1497  rem -  ['a521', 'a718']
+
+NODE: 2029  intro
+
+NODE: 755  intro
+
+NODE: 2254 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2522  intro
+
+NODE: 95  intro
+
+NODE: 1496  rem -  ['a521']
+
+NODE: 2027  intro
+
+NODE: 2028  intro
+
+NODE: 754  intro
+
+NODE: 84  join
+as list
+
+----------------
+
+NODE: 1487  rem -  ['a101', 'a394', 'a718']
+
+NODE: 745  intro
+
+NODE: 1137  join
+as list
+
+----------------
+
+NODE: 2281 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2571  intro
+
+NODE: 2572  intro
+
+NODE: 2573  intro
+
+NODE: 164  intro
+
+NODE: 1543  rem -  ['a219', 'a435', 'a50']
+
+NODE: 801  intro
+
+NODE: 2325 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2655  intro
+
+NODE: 2656  intro
+
+NODE: 290  intro
+
+NODE: 1626  rem -  ['a208', 'a595']
+
+NODE: 884  intro
+
+NODE: 2339 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2682  intro
+
+NODE: 327  intro
+
+NODE: 1288  rem -  ['a651']
+
+NODE: 307  intro
+
+NODE: 1284  rem -  ['a407']
+
+NODE: 289  intro
+
+NODE: 1625  rem -  ['a208']
+
+NODE: 2096  intro
+
+NODE: 883  intro
+
+NODE: 276  join
+as list
+
+----------------
+
+NODE: 1273  rem -  ['a285', 'a595']
+
+NODE: 262  intro
+
+NODE: 1268  rem -  ['a587', 'a595']
+
+NODE: 246  intro
+
+NODE: 1261  rem -  ['a100', 'a587']
+
+NODE: 231  intro
+
+NODE: 1255  rem -  ['a113', 'a587']
+
+NODE: 215  intro
+
+NODE: 1579  rem -  ['a113', 'a400']
+
+NODE: 837  intro
+
+NODE: 2300 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2608  intro
+
+NODE: 2609  intro
+
+NODE: 214  intro
+
+NODE: 1578  rem -  ['a113', 'a636']
+
+NODE: 836  intro
+
+NODE: 196  join
+as list
+
+----------------
+
+NODE: 1566  rem -  ['a400', 'a636']
+
+NODE: 2072  intro
+
+NODE: 824  intro
+
+NODE: 2299 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2607  intro
+
+NODE: 213  intro
+
+NODE: 1249  rem -  ['a524']
+
+NODE: 1947  intro
+
+NODE: 195  intro
+
+NODE: 1565  rem -  ['a50', 'a636']
+
+NODE: 2071  intro
+
+NODE: 823  intro
+
+NODE: 176  join
+as list
+
+----------------
+
+NODE: 1240  rem -  ['a203', 'a400', 'a50']
+
+NODE: 163  intro
+
+NODE: 1542  rem -  ['a219', 'a400', 'a50']
+
+NODE: 800  intro
+
+NODE: 1144  join
+as list
+
+----------------
+
+NODE: 2292 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2594  intro
+
+NODE: 2595  intro
+
+NODE: 194  intro
+
+NODE: 1243  rem -  ['a621', 'a71']
+
+NODE: 175  intro
+
+NODE: 1239  rem -  ['a435', 'a71']
+
+NODE: 162  intro
+
+NODE: 1541  rem -  ['a435', 'a50']
+
+NODE: 2056  intro
+
+NODE: 799  intro
+
+NODE: 150  join
+as list
+
+----------------
+
+NODE: 1231  rem -  ['a219', 'a400', 'a435']
+
+NODE: 136  intro
+
+NODE: 1226  rem -  ['a400', 'a435', 'a707']
+
+NODE: 123  intro
+
+NODE: 1514  rem -  ['a344', 'a400', 'a707']
+
+NODE: 772  intro
+
+NODE: 2276 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2560  intro
+
+NODE: 2561  intro
+
+NODE: 2562  intro
+
+NODE: 149  intro
+
+NODE: 1532  rem -  ['a344', 'a409', 'a707']
+
+NODE: 790  intro
+
+NODE: 2275 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2558  intro
+
+NODE: 2559  intro
+
+NODE: 148  intro
+
+NODE: 1531  rem -  ['a344', 'a409']
+
+NODE: 2052  intro
+
+NODE: 789  intro
+
+NODE: 135  join
+as list
+
+----------------
+
+NODE: 1225  rem -  ['a344', 'a662', 'a707']
+
+NODE: 122  intro
+
+NODE: 1513  rem -  ['a344', 'a468', 'a707']
+
+NODE: 771  intro
+
+NODE: 111  join
+as list
+
+----------------
+
+NODE: 1217  rem -  ['a400', 'a468', 'a707']
+
+NODE: 94  intro
+
+NODE: 1495  rem -  ['a134', 'a400', 'a468']
+
+NODE: 753  intro
+
+NODE: 2262 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2534  intro
+
+NODE: 2535  intro
+
+NODE: 110  intro
+
+NODE: 1216  rem -  ['a246', 'a400']
+
+NODE: 93  intro
+
+NODE: 1494  rem -  ['a134', 'a400']
+
+NODE: 2026  intro
+
+NODE: 752  intro
+
+NODE: 1138  join
+as list
+
+----------------
+
+NODE: 2261 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2532  intro
+
+NODE: 2533  intro
+
+NODE: 109  intro
+
+NODE: 1507  rem -  ['a468', 'a725']
+
+NODE: 2037  intro
+
+NODE: 765  intro
+
+NODE: 2260 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2531  intro
+
+NODE: 108  intro
+
+NODE: 1506  rem -  ['a725']
+
+NODE: 2035  intro
+
+NODE: 2036  intro
+
+NODE: 764  intro
+
+NODE: 92  join
+as list
+
+----------------
+
+NODE: 1493  rem -  ['a134', 'a183', 'a468']
+
+NODE: 751  intro
+
+NODE: 83  join
+as list
+
+----------------
+
+NODE: 1894  rem -  ['a183', 'a400', 'a468']
+
+NODE: 1895  rem -  ['a183', 'a468']
+
+NODE: 1486  rem -  ['a183']
+
+NODE: 2023  intro
+
+NODE: 2024  intro
+
+NODE: 744  intro
+
+NODE: 76  join
+as list
+
+----------------
+
+NODE: 1874  rem -  ['a101', 'a394', 'a718']
+
+NODE: 1207  rem -  ['a101', 'a718']
+
+NODE: 67  intro
+
+NODE: 1476  rem -  ['a479', 'a718']
+
+NODE: 734  intro
+
+NODE: 2250 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2516  intro
+
+NODE: 2517  intro
+
+NODE: 75  intro
+
+NODE: 1206  rem -  ['a17', 'a560']
+
+NODE: 66  intro
+
+NODE: 1475  rem -  ['a560', 'a718']
+
+NODE: 733  intro
+
+NODE: 59  join
+as list
+
+----------------
+
+NODE: 1472  rem -  ['a479', 'a560']
+
+NODE: 2017  intro
+
+NODE: 730  intro
+
+NODE: 2259 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2530  intro
+
+NODE: 107  intro
+
+NODE: 1215  rem -  ['a88']
+
+NODE: 91  intro
+
+NODE: 1212  rem -  ['a604']
+
+NODE: 1935  intro
+
+NODE: 82  intro
+
+NODE: 1210  rem -  ['a52', 'a82']
+
+NODE: 1934  intro
+
+NODE: 74  intro
+
+NODE: 1482  rem -  ['a52', 'a559', 'a620']
+
+NODE: 740  intro
+
+NODE: 2249 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2514  intro
+
+NODE: 2515  intro
+
+NODE: 73  intro
+
+NODE: 1481  rem -  ['a479', 'a52']
+
+NODE: 2019  intro
+
+NODE: 739  intro
+
+NODE: 65  join
+as list
+
+----------------
+
+NODE: 1204  rem -  ['a479', 'a559', 'a620']
+
+NODE: 58  intro
+
+NODE: 1471  rem -  ['a479', 'a538', 'a559']
+
+NODE: 729  intro
+
+NODE: 1135  join
+as list
+
+----------------
+
+NODE: 2246 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2508  intro
+
+NODE: 2509  intro
+
+NODE: 64  intro
+
+NODE: 1203  rem -  ['a173', 'a560']
+
+NODE: 1931  intro
+
+NODE: 57  intro
+
+NODE: 1470  rem -  ['a479', 'a538', 'a560']
+
+NODE: 728  intro
+
+NODE: 53  join
+as list
+
+----------------
+
+NODE: 1469  rem -  ['a538', 'a559', 'a560']
+
+NODE: 727  intro
+
+NODE: 2248 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2512  intro
+
+NODE: 2513  intro
+
+NODE: 72  intro
+
+NODE: 1480  rem -  ['a11', 'a401']
+
+NODE: 738  intro
+
+NODE: 2252 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2519  intro
+
+NODE: 81  intro
+
+NODE: 1209  rem -  ['a652']
+
+NODE: 71  intro
+
+NODE: 1479  rem -  ['a11']
+
+NODE: 2018  intro
+
+NODE: 737  intro
+
+NODE: 63  join
+as list
+
+----------------
+
+NODE: 1202  rem -  ['a115', 'a401']
+
+NODE: 56  intro
+
+NODE: 1200  rem -  ['a115', 'a560']
+
+NODE: 52  intro
+
+NODE: 1468  rem -  ['a447', 'a560']
+
+NODE: 2016  intro
+
+NODE: 726  intro
+
+NODE: 1134  join
+as list
+
+----------------
+
+NODE: 2244 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2504  intro
+
+NODE: 2505  intro
+
+NODE: 51  intro
+
+NODE: 1467  rem -  ['a447', 'a538']
+
+NODE: 2015  intro
+
+NODE: 725  intro
+
+NODE: 47  join
+as list
+
+----------------
+
+NODE: 1890  rem -  ['a447', 'a559', 'a560']
+
+NODE: 1464  rem -  ['a447', 'a559']
+
+NODE: 2014  intro
+
+NODE: 722  intro
+
+NODE: 2245 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2506  intro
+
+NODE: 2507  intro
+
+NODE: 62  intro
+
+NODE: 1201  rem -  ['a240', 'a93']
+
+NODE: 55  intro
+
+NODE: 1199  rem -  ['a240', 'a532']
+
+NODE: 50  intro
+
+NODE: 1197  rem -  ['a532', 'a69']
+
+NODE: 1930  intro
+
+NODE: 46  intro
+
+NODE: 1463  rem -  ['a143', 'a559', 'a69']
+
+NODE: 721  intro
+
+NODE: 1133  join
+as list
+
+----------------
+
+NODE: 2242 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2500  intro
+
+NODE: 2501  intro
+
+NODE: 45  intro
+
+NODE: 1462  rem -  ['a143', 'a559']
+
+NODE: 2013  intro
+
+NODE: 720  intro
+
+NODE: 43  join
+as list
+
+----------------
+
+NODE: 1195  rem -  ['a143', 'a447', 'a69']
+
+NODE: 39  intro
+
+NODE: 1457  rem -  ['a307', 'a447', 'a69']
+
+NODE: 715  intro
+
+NODE: 2239 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2494  intro
+
+NODE: 2495  intro
+
+NODE: 38  intro
+
+NODE: 1456  rem -  ['a307', 'a69']
+
+NODE: 2012  intro
+
+NODE: 714  intro
+
+NODE: 33  join
+as list
+
+----------------
+
+NODE: 1872  rem -  ['a447', 'a497', 'a69']
+
+NODE: 1193  rem -  ['a497', 'a69']
+
+NODE: 30  intro
+
+NODE: 1452  rem -  ['a497', 'a573']
+
+NODE: 2009  intro
+
+NODE: 710  intro
+
+NODE: 2238 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2491  intro
+
+NODE: 2492  intro
+
+NODE: 2493  intro
+
+NODE: 37  intro
+
+NODE: 1455  rem -  ['a357', 'a497', 'a602']
+
+NODE: 713  intro
+
+NODE: 2241 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2498  intro
+
+NODE: 2499  intro
+
+NODE: 42  intro
+
+NODE: 1461  rem -  ['a357', 'a681']
+
+NODE: 719  intro
+
+NODE: 2240 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2496  intro
+
+NODE: 2497  intro
+
+NODE: 41  intro
+
+NODE: 1460  rem -  ['a21', 'a681']
+
+NODE: 718  intro
+
+NODE: 36  join
+as list
+
+----------------
+
+NODE: 1454  rem -  ['a21', 'a357']
+
+NODE: 2011  intro
+
+NODE: 712  intro
+
+NODE: 1132  join
+as list
+
+----------------
+
+NODE: 2237 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2489  intro
+
+NODE: 2490  intro
+
+NODE: 35  intro
+
+NODE: 1453  rem -  ['a357', 'a602']
+
+NODE: 2010  intro
+
+NODE: 711  intro
+
+NODE: 32  join
+as list
+
+----------------
+
+NODE: 1192  rem -  ['a21', 'a497', 'a602']
+
+NODE: 29  intro
+
+NODE: 1451  rem -  ['a21', 'a476', 'a497']
+
+NODE: 709  intro
+
+NODE: 25  join
+as list
+
+----------------
+
+NODE: 1187  rem -  ['a21', 'a476', 'a573']
+
+NODE: 21  intro
+
+NODE: 1448  rem -  ['a21', 'a397', 'a573']
+
+NODE: 706  intro
+
+NODE: 2234 leaf
+[[], [], [], [], [], [], [], 1]
+
+NODE: 2484  intro
+
+NODE: 20  intro
+
+NODE: 1447  rem -  ['a573']
+
+NODE: 2007  intro
+
+NODE: 2008  intro
+
+NODE: 705  intro
+
+NODE: 14  join
+as list
+
+----------------
+
+NODE: 1443  rem -  ['a397', 'a573', 'a679']
+
+NODE: 701  intro
+
+NODE: 7  join
+as list
+
+----------------
+
+NODE: 1183  rem -  ['a397', 'a679', 'a699']
+
+NODE: 4  intro
+
+NODE: 1182  rem -  ['a340', 'a397', 'a679']
+
+NODE: 2  intro
+
+NODE: 1181  rem -  ['a340', 'a570', 'a679']
+
+NODE: 1  intro
+
+NODE: 1435  rem -  ['a340', 'a486', 'a679']
+
+NODE: 693  intro
+
+NODE: 3  join
+as list
+
+----------------
+
+NODE: 1437  rem -  ['a340', 'a486', 'a608']
+
+NODE: 695  intro
+
+NODE: 5  join
+as list
+
+----------------
+
+NODE: 1184  rem -  ['a340', 'a467', 'a486']
+
+NODE: 10  intro
+
+NODE: 1449  rem -  ['a340', 'a467', 'a737']
+
+NODE: 707  intro
+
+NODE: 16  join
+as list
+
+----------------
+
+NODE: 1189  rem -  ['a215', 'a467', 'a737']
+
+NODE: 23  intro
+
+NODE: 1191  rem -  ['a215', 'a467', 'a503']
+
+NODE: 27  intro
+
+NODE: 1194  rem -  ['a467', 'a503', 'a605']
+
+NODE: 31  intro
+
+NODE: 1458  rem -  ['a467', 'a470', 'a605']
+
+NODE: 716  intro
+
+NODE: 34  join
+as list
+
+----------------
+
+NODE: 2929  rem -  ['a470', 'a495', 'a605']
+
+NODE: 2930  rem -  ['a495', 'a605']
+
+NODE: 2931  rem -  ['a605']
+
+NODE: 2473  rem -  []
+RESULT 0.0
+
+[startup+149.553 s]
+# the end of solver process 333992 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=146.067 s, system=2.96113 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+[startup+102.401 s]
+/proc/loadavg: 1.13 1.22 1.28 2/945 334455
+/proc/meminfo: memFree=4218996/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=833796 memory=724288 CPUtime=102.16 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 209593 1701 0 0 9885 205 122 4 20 0 2 0 41555305 853807104 181072 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 208449 181072 7680 688 0 186276 0
+[pid=333994/tid=333995] ppid=333992 vsize=833796 memory=12636 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 853807104 181072 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 102.16 s
+Current children cumulated vsize: 836692 KiB
+Current children cumulated memory: 725952 KiB
+
+[startup+128.001 s]*
+/proc/loadavg: 1.30 1.26 1.29 2/945 334549
+/proc/meminfo: memFree=4060488/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=981252 memory=869144 CPUtime=127.5 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 248585 1701 0 0 12375 249 122 4 20 0 2 0 41555305 1004802048 217286 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 245313 217286 7680 688 0 223140 0
+[pid=333994/tid=333995] ppid=333992 vsize=981252 memory=-7019259531255048542 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 1004802048 217286 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 127.5 s
+Current children cumulated vsize: 984148 KiB
+Current children cumulated memory: 870808 KiB
+
+[startup+140.801 s]
+/proc/loadavg: 1.55 1.31 1.31 2/945 334572
+/proc/meminfo: memFree=3997236/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=1049860 memory=936780 CPUtime=140.27 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 265627 1701 0 0 13629 272 122 4 20 0 2 0 41555305 1075056640 234195 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 262465 234195 7680 688 0 240292 0
+[pid=333994/tid=333995] ppid=333992 vsize=1049860 memory=12636 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 1075056640 234195 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 140.27 s
+Current children cumulated vsize: 1052756 KiB
+Current children cumulated memory: 938444 KiB
+
+[startup+144.001 s]*
+/proc/loadavg: 1.55 1.31 1.31 2/945 334572
+/proc/meminfo: memFree=3974052/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=1068292 memory=955468 CPUtime=143.49 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 270304 1701 0 0 13945 278 122 4 20 0 2 0 41555305 1093931008 238867 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 267073 238867 7680 688 0 244900 0
+[pid=333994/tid=333995] ppid=333992 vsize=1068292 memory=-7019259531255048542 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 1093931008 238867 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 2 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 143.49 s
+Current children cumulated vsize: 1071188 KiB
+Current children cumulated memory: 957132 KiB
+
+[startup+147.201 s]
+/proc/loadavg: 1.50 1.30 1.30 2/945 334595
+/proc/meminfo: memFree=3961452/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=1081604 memory=968268 CPUtime=146.65 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 273485 1701 0 0 14255 284 122 4 20 0 2 0 41555305 1107562496 242067 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 270401 242067 7680 688 0 248228 0
+[pid=333994/tid=333995] ppid=333992 vsize=1081604 memory=944460 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 1107562496 242067 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 146.65 s
+Current children cumulated vsize: 1084500 KiB
+Current children cumulated memory: 969932 KiB
+
+[startup+148.801 s]
+/proc/loadavg: 1.50 1.30 1.30 2/945 334595
+/proc/meminfo: memFree=3961452/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=1081604 memory=968268 CPUtime=148.25 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 273485 1701 0 0 14414 285 122 4 20 0 2 0 41555305 1107562496 242067 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 270401 242067 7680 688 0 248228 0
+[pid=333994/tid=333995] ppid=333992 vsize=1081604 memory=968268 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 1107562496 242067 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 148.25 s
+Current children cumulated vsize: 1084500 KiB
+Current children cumulated memory: 969932 KiB
+
+[startup+149.201 s]
+/proc/loadavg: 1.50 1.30 1.30 2/945 334595
+/proc/meminfo: memFree=3961452/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=1081604 memory=968268 CPUtime=148.65 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 273485 1701 0 0 14453 286 122 4 20 0 2 0 41555305 1107562496 242067 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 270401 242067 7680 688 0 248228 0
+[pid=333994/tid=333995] ppid=333992 vsize=1081604 memory=968268 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 1107562496 242067 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 148.65 s
+Current children cumulated vsize: 1084500 KiB
+Current children cumulated memory: 969932 KiB
+
+[startup+149.401 s]
+/proc/loadavg: 1.50 1.30 1.30 2/945 334595
+/proc/meminfo: memFree=3961452/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=755972 memory=647164 CPUtime=148.85 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 273485 1701 0 0 14472 287 122 4 20 0 2 0 41555305 774115328 161791 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 188993 161791 7680 688 0 166820 0
+[pid=333994/tid=333995] ppid=333992 vsize=755972 memory=25025 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 774115328 161791 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 148.85 s
+Current children cumulated vsize: 758868 KiB
+Current children cumulated memory: 648828 KiB
+
+[startup+149.501 s]
+/proc/loadavg: 1.50 1.30 1.30 2/945 334595
+/proc/meminfo: memFree=3961452/16331364 swapFree=1316924/2097148
+[pid=333992] ppid=333991 vsize=2896 memory=1664 CPUtime=0 cores=0-1
+/proc/333992/stat : 333992 (sh) S 333991 333992 291783 34818 312326 4194304 101 0 0 0 0 0 0 0 20 0 1 0 41555304 2965504 416 18446744073709551615 102305979695104 102305979775381 140737070685888 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102305979801328 102305979806240 102305981157376 140737070689221 140737070689419 140737070689419 140737070694384 0
+/proc/333992/statm: 724 416 416 20 0 92 0
+[pid=333994] ppid=333992 vsize=457988 memory=353788 CPUtime=148.95 cores=0-1
+/proc/333994/stat : 333994 (python3) R 333992 333992 291783 34818 312326 4194304 273485 1701 0 0 14480 289 122 4 20 0 2 0 41555305 468979712 88447 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 0 0 0 17 0 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+/proc/333994/statm: 114497 88447 7680 688 0 92324 0
+[pid=333994/tid=333995] ppid=333992 vsize=457988 memory=1664 CPUtime=1.34 cores=0-1
+/proc/333994/task/333995/stat : 333995 (python3) S 333992 333992 291783 34818 312326 4194368 3 1701 0 0 4 4 122 4 20 0 2 0 41555308 468979712 88447 18446744073709551615 107368527532032 107368530346749 140723009692880 0 0 0 0 16781312 0 1 0 0 -1 1 0 0 0 0 0 107368532707376 107368532991352 107368552386560 140723009698667 140723009698946 140723009698946 140723009703911 0
+Current children cumulated CPU time: 148.95 s
+Current children cumulated vsize: 460884 KiB
+Current children cumulated memory: 355452 KiB
+
+Child status: 0
+Real time (s): 149.554
+CPU time (s): 149.028
+CPU user time (s): 146.067
+CPU system time (s): 2.96113
+CPU usage (%): 99.6484
+Max. virtual memory (cumulated for all children) (KiB): 1084500
+Max. memory (cumulated for all children) (KiB): 969932
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 146.067
+system time used= 2.96113
+maximum resident set size= 968268
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 275345
+page faults= 0
+swaps= 0
+block input operations= 0
+block output operations= 192
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 5880
+involuntary context switches= 12825
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 333992
+#   total CPU time (s): 149.028
+#   total CPU user time (s): 146.067
+#   total CPU system time (s): 2.96113
+
+??? end of timestamper thread
+runsolver used 1.40059 second user time and 1.87951 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_td_python_ver_real_efficient_join.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances_dense_uncertain/k5_n150_qa730_2.lp"
+	User time (seconds): 147.46
+	System time (seconds): 4.84
+	Percent of CPU this job got: 101%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:29.65
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 968268
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 276011
+	Voluntary context switches: 7381
+	Involuntary context switches: 13664
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 288
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

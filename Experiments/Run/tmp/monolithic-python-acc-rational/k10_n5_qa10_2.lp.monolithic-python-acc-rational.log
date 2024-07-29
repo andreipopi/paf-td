@@ -1,0 +1,151 @@
+runsolver version 3.4.0 (svn: 3018) Copyright (C) 2010-2013 Olivier ROUSSEL
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+NUMA information:
+  number of nodes: 1
+  memory of node 0: 9662 MiB (8381 MiB free)
+  node distances:
+     10
+
+command line: ./runsolver -C 300 --vsize-limit 8192 ./call_solver_monolithic_python_acc_rational.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances/k10_n5_qa10_2.lp 
+
+running on 2 cores: 0-1
+
+Enforcing CPUTime limit (soft limit, will send SIGTERM then SIGKILL): 300 seconds
+Enforcing CPUTime limit (hard limit, will send SIGXCPU): 330 seconds
+Enforcing VSIZE limit (soft limit, will send SIGTERM then SIGKILL): 8388608 KiB
+Enforcing VSIZE limit (hard limit, stack expansion will fail with SIGSEGV, brk() and mmap() will return ENOMEM): 8439808 KiB
+Linux 6.5.0-27-generic
+Current StackSize limit: 8192 KiB
+
+solver pid=59817, runsolver pid=59816
+
+[startup+0.100371 s]*
+/proc/loadavg: 1.68 1.53 1.55 2/705 59820
+/proc/meminfo: memFree=8554156/9894536 swapFree=789264/2097148
+[pid=59817] ppid=59816 vsize=2896 memory=1536 CPUtime=0 cores=0-1
+/proc/59817/stat : 59817 (sh) S 59816 59817 3733 34817 53641 4194304 104 0 0 0 0 0 0 0 20 0 1 0 6416594 2965504 384 18446744073709551615 102595968761856 102595968842133 140734001172192 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102595968868080 102595968872992 102595977129984 140734001179723 140734001179900 140734001179900 140734001184752 0
+/proc/59817/statm: 724 384 384 20 0 92 0
+[pid=59820] ppid=59817 vsize=24896 memory=13952 CPUtime=0.09 cores=0-1
+/proc/59820/stat : 59820 (python3) D 59817 59817 3733 34817 53641 4194304 1519 0 38 0 7 2 0 0 20 0 1 0 6416595 25493504 3488 18446744073709551615 102049294635008 102049297449725 140726940196752 0 0 0 0 16781312 2 1 0 0 17 0 0 0 0 0 0 102049299810352 102049300094328 102049306042368 140726940199913 140726940200179 140726940200179 140726940205031 0
+/proc/59820/statm: 6224 3488 2208 688 0 1737 0
+Current children cumulated CPU time: 0.09 s
+Current children cumulated vsize: 27792 KiB
+Current children cumulated memory: 15488 KiB
+
+[startup+0.245193 s]*
+/proc/loadavg: 1.68 1.53 1.55 2/705 59820
+/proc/meminfo: memFree=8544832/9894536 swapFree=789264/2097148
+[pid=59817] ppid=59816 vsize=2896 memory=1536 CPUtime=0 cores=0-1
+/proc/59817/stat : 59817 (sh) S 59816 59817 3733 34817 53641 4194304 104 0 0 0 0 0 0 0 20 0 1 0 6416594 2965504 384 18446744073709551615 102595968761856 102595968842133 140734001172192 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102595968868080 102595968872992 102595977129984 140734001179723 140734001179900 140734001179900 140734001184752 0
+/proc/59817/statm: 724 384 384 20 0 92 0
+[pid=59820] ppid=59817 vsize=33392 memory=21120 CPUtime=0.19 cores=0-1
+/proc/59820/stat : 59820 (python3) R 59817 59817 3733 34817 53641 4194304 2569 0 91 0 13 6 0 0 20 0 1 0 6416595 34193408 5280 18446744073709551615 102049294635008 102049297449725 140726940196752 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 102049299810352 102049300094328 102049306042368 140726940199913 140726940200179 140726940200179 140726940205031 0
+/proc/59820/statm: 8348 5280 3008 688 0 2553 0
+Current children cumulated CPU time: 0.19 s
+Current children cumulated vsize: 36288 KiB
+Current children cumulated memory: 22656 KiB
+
+[startup+0.393322 s]*
+/proc/loadavg: 1.68 1.53 1.55 3/705 59820
+/proc/meminfo: memFree=8538280/9894536 swapFree=789264/2097148
+[pid=59817] ppid=59816 vsize=2896 memory=1536 CPUtime=0 cores=0-1
+/proc/59817/stat : 59817 (sh) S 59816 59817 3733 34817 53641 4194304 104 0 0 0 0 0 0 0 20 0 1 0 6416594 2965504 384 18446744073709551615 102595968761856 102595968842133 140734001172192 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102595968868080 102595968872992 102595977129984 140734001179723 140734001179900 140734001179900 140734001184752 0
+/proc/59817/statm: 724 384 384 20 0 92 0
+[pid=59820] ppid=59817 vsize=35376 memory=24320 CPUtime=0.25 cores=0-1
+/proc/59820/stat : 59820 (python3) R 59817 59817 3733 34817 53641 4194304 3242 0 100 0 17 8 0 0 20 0 1 0 6416595 36225024 6080 18446744073709551615 102049294635008 102049297449725 140726940196752 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 102049299810352 102049300094328 102049306042368 140726940199913 140726940200179 140726940200179 140726940205031 0
+/proc/59820/statm: 8844 6080 3200 688 0 3037 0
+Current children cumulated CPU time: 0.25 s
+Current children cumulated vsize: 38272 KiB
+Current children cumulated memory: 25856 KiB
+  File "/home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/monolithic-python/acceptability/rational/monolithic_solver_acc.py", line 32
+    print("RESULT: ", P)
+    ^
+IndentationError: expected an indented block after 'for' statement on line 29
+
+[startup+0.478243 s]
+# the end of solver process 59817 was just reported to runsolver
+# cumulated CPU time of all completed processes:  user=0.190082 s, system=0.097314 s
+
+Solver just ended.
+??? end of watcher thread
+Dumping a history of the last processes samples
+
+[startup+0.393322 s]*
+/proc/loadavg: 1.68 1.53 1.55 3/705 59820
+/proc/meminfo: memFree=8538280/9894536 swapFree=789264/2097148
+[pid=59817] ppid=59816 vsize=2896 memory=1536 CPUtime=0 cores=0-1
+/proc/59817/stat : 59817 (sh) S 59816 59817 3733 34817 53641 4194304 104 0 0 0 0 0 0 0 20 0 1 0 6416594 2965504 384 18446744073709551615 102595968761856 102595968842133 140734001172192 0 0 0 0 0 65538 1 0 0 17 0 0 0 0 0 0 102595968868080 102595968872992 102595977129984 140734001179723 140734001179900 140734001179900 140734001184752 0
+/proc/59817/statm: 724 384 384 20 0 92 0
+[pid=59820] ppid=59817 vsize=35376 memory=24320 CPUtime=0.25 cores=0-1
+/proc/59820/stat : 59820 (python3) R 59817 59817 3733 34817 53641 4194304 3242 0 100 0 17 8 0 0 20 0 1 0 6416595 36225024 6080 18446744073709551615 102049294635008 102049297449725 140726940196752 0 0 0 0 16781312 2 0 0 0 17 0 0 0 0 0 0 102049299810352 102049300094328 102049306042368 140726940199913 140726940200179 140726940200179 140726940205031 0
+/proc/59820/statm: 8844 6080 3200 688 0 3037 0
+Current children cumulated CPU time: 0.25 s
+Current children cumulated vsize: 38272 KiB
+Current children cumulated memory: 25856 KiB
+
+Child status: 1
+Real time (s): 0.478568
+CPU time (s): 0.287396
+CPU user time (s): 0.190082
+CPU system time (s): 0.097314
+CPU usage (%): 60.0533
+Max. virtual memory (cumulated for all children) (KiB): 38272
+Max. memory (cumulated for all children) (KiB): 25856
+
+getrusage(RUSAGE_CHILDREN,...) data:
+user time used= 0.190082
+system time used= 0.097314
+maximum resident set size= 24880
+integral shared memory size= 0
+integral unshared data size= 0
+integral unshared stack size= 0
+page reclaims= 3419
+page faults= 105
+swaps= 0
+block input operations= 26156
+block output operations= 0
+messages sent= 0
+messages received= 0
+signals received= 0
+voluntary context switches= 272
+involuntary context switches= 115
+
+
+# summary of solver processes directly reported to runsolver:
+#   pid: 59817
+#   total CPU time (s): 0.287396
+#   total CPU user time (s): 0.190082
+#   total CPU system time (s): 0.097314
+
+??? end of timestamper thread
+runsolver used 0.176909 second user time and 0.036103 second system time
+
+The end
+	Command being timed: "./runsolver -C 300 --vsize-limit 8192 ./call_solver_monolithic_python_acc_rational.sh /home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/instance-set/generated_instances/k10_n5_qa10_2.lp"
+	User time (seconds): 0.36
+	System time (seconds): 0.13
+	Percent of CPU this job got: 86%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.57
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 24880
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 105
+	Minor (reclaiming a frame) page faults: 3874
+	Voluntary context switches: 280
+	Involuntary context switches: 188
+	Swaps: 0
+	File system inputs: 26156
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
