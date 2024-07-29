@@ -1,5 +1,5 @@
 
-## ASTRA - Assumption-based argumentation Solver using Tree-decompositions to Answer reasoning tasks
+## paf-td
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
