@@ -19,14 +19,18 @@ The two main systems are in Experiments/td-python/verification rational and real
 
     python post_order_ver.py problem_instance
 
-    (Note that for this system you will need to compile HTD, and set the path to the binary in input_output.py). 
+(Note that for this system you will need to compile HTD, and set the path to the binary in input_output.py). 
 
 The other two systems can be used as a camparison:
 
 [monolithic-clingo]
+
     clingo encoding_COM_ver.py problem_instance 0 -q    
+
 [monolithic-python]
+
     python monolithic_solver_ver.py problem_instance
+
 
 ## HTD Compilation
 
