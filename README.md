@@ -39,6 +39,7 @@ See dedicated folder.
 ## Instance Format
 
 [RunningExample]
+    
     arg(a). arg(b). arg(c). arg(d). arg(e).
 
     p(a,0.8). p(b,1). p(c,0.9). p(d,1). p(e,1).
