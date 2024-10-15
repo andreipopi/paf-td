@@ -86,7 +86,7 @@ class InputOutput:
         file = open(filename, "w")
         file.write(grInstanceString)
         file.close()    
-        command = "/home/andreipopi/Documents/GitLab/praaf-tree-decomposition/Experiments/td-python/verification/rational_efficient_join/htd-binary/linux/htd_main-1.2.0 < temp"
+        command = "htd_binary_path< temp"
         process = subprocess.Popen(command, shell = True, stdout= subprocess.PIPE)
         output = str(process.communicate()[0], "utf-8") #the output is in process.communicate()[0] and we need it in utf-8 for parsing       
         if os.path.exists(filename):
