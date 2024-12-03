@@ -3,9 +3,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[Paper with appendix](inlcude link)
+[Link to paper](https://proceedings.kr.org/2024/55/)
 
 # Citation
+
+Popescu, A., & Wallner, J. P. (2024). Advancing Algorithmic Approaches to Probabilistic Argumentation under the Constellation Approach. In P. Marquis, M. Ortiz, & M. Pagnucco (Eds.), Proceedings KR (pp. 585-596) https://doi.org/10.24963/kr.2024/55
 
 ## Problem
 paf-td computes the probability of a set of arguments being a \sigma extension in a PAF.
