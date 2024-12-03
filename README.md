@@ -10,7 +10,7 @@
 Popescu, A., & Wallner, J. P. (2024). Advancing Algorithmic Approaches to Probabilistic Argumentation under the Constellation Approach. In P. Marquis, M. Ortiz, & M. Pagnucco (Eds.), Proceedings KR (pp. 585-596) https://doi.org/10.24963/kr.2024/55
 
 ## Problem
-PAF-TD computes the probability of a set of arguments being an extension under some semantics in a PAF.
+PAF-TD is an exact approach to compute the probability of a set of arguments being an extension under some semantics in a PAF. It scales with the tree-widths of PAFs.
 
 
 ## Usage
