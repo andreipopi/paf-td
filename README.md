@@ -1,63 +1,105 @@
+# PAF-TD
 
-## paf-td
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+> [!NOTE]
+> This is the maintained GitHub repository for PAF-TD. The project was originally hosted in the [TU Graz Knowledge Representation and Reasoning (KRR) GitLab repository](https://gitlab.tugraz.at/krr/paf-td).
 
-[Link to paper](https://proceedings.kr.org/2024/55/)
+PAF-TD provides exact algorithms for computing the probability that a given set of arguments is a complete extension of a Probabilistic Argumentation Framework (PAF) under the constellation approach. The main implementation uses dynamic programming over tree decompositions and is designed to exploit low treewidth. Monolithic Python and Answer Set Programming (ASP) implementations are included for comparison.
 
-# Citation
+## Publication
 
-Popescu, A., & Wallner, J. P. (2024). Advancing Algorithmic Approaches to Probabilistic Argumentation under the Constellation Approach. In P. Marquis, M. Ortiz, & M. Pagnucco (Eds.), Proceedings KR (pp. 585-596) https://doi.org/10.24963/kr.2024/55
+Andrei Popescu and Johannes P. Wallner. **Advancing Algorithmic Approaches to Probabilistic Argumentation under the Constellation Approach.** In *Proceedings of the 21st International Conference on Principles of Knowledge Representation and Reasoning (KR 2024)*, pages 585-596, 2024.
 
-## Problem
-PAF-TD is an exact approach to compute the probability of a set of arguments being an extension under some semantics in a PAF. It scales with the tree-widths of PAFs.
+- [Published paper](https://doi.org/10.24963/kr.2024/55)
 
+## Contents
 
-## Usage
+- [`Experiments/td-python/`](Experiments/td-python/): tree-decomposition-based solvers using rational or floating-point arithmetic
+- [`Experiments/monolithic-python/`](Experiments/monolithic-python/): monolithic Python implementations
+- [`Experiments/monolithic-clingo/`](Experiments/monolithic-clingo/): monolithic ASP implementation
+- [`Instances/`](Instances/): small examples and test instances
+- [`InstanceGenerator/`](InstanceGenerator/): benchmark generators
+- [`PreProcessing/`](PreProcessing/): ASP-based preprocessing
+- [`Experiments/`](Experiments/): benchmark instances, run scripts, raw logs, and compiled results
+- [`CompilationHTD/`](CompilationHTD/): the modified HTD entry point and compilation notes
 
-The two main systems are in Experiments/td-python/verification rational and real folders.
+## Requirements
 
-[td-python]
+- Python 3
+- [pandas](https://pandas.pydata.org/) for the tree-decomposition solvers
+- [Clingo](https://potassco.org/clingo/) for the ASP implementation and preprocessing
+- [HTD](https://github.com/mabseher/htd) for computing tree decompositions
 
-    python post_order_ver.py problem_instance
+## HTD Setup
 
-(Note that for this system you will need to compile HTD, and set the path to the binary in input_output.py). 
+Compile HTD using the modified [`main.cpp`](CompilationHTD/main.cpp) and the instructions in [`CompilationHTD/compileHTD.md`](CompilationHTD/compileHTD.md). Prebuilt binaries are included with the experimental code, but they are platform-specific and may need to be rebuilt.
 
-The other two systems can be used as a camparison:
+Set the `command` variable in the following files to the path of your HTD binary:
 
-[monolithic-clingo]
+- [`Experiments/td-python/verification/rational/input_output.py`](Experiments/td-python/verification/rational/input_output.py)
+- [`Experiments/td-python/verification/real/input_output.py`](Experiments/td-python/verification/real/input_output.py)
 
-    clingo encoding_COM_ver.py problem_instance 0 -q    
+Both files currently contain the placeholder `htd_binary_path`.
 
-[monolithic-python]
+## Running the Solvers
 
-    python monolithic_solver_ver.py problem_instance
+From the repository root, run the exact tree-decomposition solver with rational arithmetic:
 
+```bash
+python3 Experiments/td-python/verification/rational/post_order_ver.py \
+  Instances/running_example.lp
+```
 
-## HTD Compilation
+The floating-point version is available under `Experiments/td-python/verification/real/`.
 
-See dedicated folder.
+The monolithic Python implementation does not require HTD:
+
+```bash
+python3 Experiments/monolithic-python/verification/rational/monolithic_solver_ver.py \
+  Instances/running_example.lp
+```
+
+The ASP implementation uses integer-scaled probabilities. Run it with one of the instances in an `*_asp` directory:
+
+```bash
+cd Experiments/monolithic-clingo/verification
+python3 monolithic_clingo_ver.py \
+  ../../instance-set/other_sets/generated_instances_asp/k3_n5_qa9_1.lp
+```
+
+The scripts in [`Experiments/Run/`](Experiments/Run/) reproduce the original experiments but contain absolute paths from the original machines. Update those paths before running the benchmark scripts.
 
 ## Instance Format
 
-[RunningExample]
-    
-    arg(a). arg(b). arg(c). arg(d). arg(e).
+See [`Instances/running_example.lp`](Instances/running_example.lp) for a complete example. The main predicates are:
 
-    p(a,0.8). p(b,1). p(c,0.9). p(d,1). p(e,1).
+- `arg(a).`: argument `a`
+- `att(a,b).`: attack from `a` to `b`
+- `p(a,0.8).`: probability of argument `a`
+- `p(i,a,b,0.7).`: probability of attack `i` from `a` to `b`
+- `extension(a).`: argument `a` belongs to the set being verified
 
-    att(a,d). att(d,a). att(b,c). att(c,b). att(a,b). att(b,a). att(c,d).att(d,c). att(e,d). att(d,e).
+## Citation
 
-    p(1,a,d,1). p(2,d,a,1). p(3,a,b,0.7). p(4,b,a,1). p(5,b,c,1). p(6,c,b,1). p(7,d,c,1). p(8,c,d,1). p(9,e,d,0.3). p(10,d,e,0.5).
-    
-    extension(a).
-    extension(c).
-    extension(e).
+```bibtex
+@inproceedings{PopescuWallner2024,
+  author    = {Andrei Popescu and Johannes P. Wallner},
+  title     = {Advancing Algorithmic Approaches to Probabilistic Argumentation under the Constellation Approach},
+  booktitle = {Proceedings of the 21st International Conference on Principles of Knowledge Representation and Reasoning},
+  pages     = {585--596},
+  year      = {2024},
+  doi       = {10.24963/kr.2024/55}
+}
+```
 
 ## Authors
 
-Andrei Popescu (TU Graz) and Johannes Wallner (TU Graz). For questions or comments contact andrei.popescu@tugraz.at.
+- Andrei Popescu
+- Johannes P. Wallner
+
+For questions or comments, contact [Andrei Popescu](mailto:andrei.popescu@tugraz.at).
 
 ## License
 
-This software is released under the MIT License and copyrighted by the authors.
+The project code is available under the [MIT License](LICENSE). Included third-party tools retain their own licenses.
