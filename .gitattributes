@@ -1,0 +1,3 @@
+# Exclude benchmark instances from GitHub language statistics
+Instances/** linguist-detectable=false
+Experiments/instance-set/** linguist-detectable=false
