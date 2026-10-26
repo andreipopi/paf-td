@@ -1,10 +1,14 @@
-# Exclude ASP files by default
+# GitHub Linguist configuration
+#
+# The repository contains large ASP (.lp) benchmark instances.
+# These are input data rather than algorithm implementations and
+# are excluded from GitHub's language statistics.
+# Actual ASP implementations and Python source code remain counted.
+
 *.lp linguist-detectable=false
 
-# Count genuine ASP implementations
 Experiments/monolithic-clingo/**/*.lp linguist-detectable=true
 PreProcessing/**/*.lp linguist-detectable=true
 
-# Explicitly count the main Python implementation
 Experiments/td-python/**/*.py linguist-language=Python
 Experiments/td-python/**/*.py linguist-detectable=true
